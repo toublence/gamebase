@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "BRAND"
+msgstr "NAMSLAB"
+
+msgid "APP_TITLE"
+msgstr "بداية جديدة"
+
+msgid "MENU_SUBTITLE"
+msgstr "أساس بسيط للعبتك القادمة."
+
+msgid "START"
+msgstr "بدء جلسة"
+
+msgid "SETTINGS"
+msgstr "الإعدادات"
+
+msgid "OFFLINE_READY"
+msgstr "جاهز حتى دون اتصال."
+
+msgid "GAME_HOST"
+msgstr "الجلسة"
+
+msgid "HOST_READY"
+msgstr "مكان لعبتك هنا"
+
+msgid "HOST_DESCRIPTION"
+msgstr "لم تُربط لعبة بعد. يمكنك الإيقاف مؤقتًا أو تغيير الإعدادات أو إنهاء الجلسة."
+
+msgid "END_SESSION"
+msgstr "إنهاء الجلسة"
+
+msgid "PAUSE"
+msgstr "إيقاف مؤقت"
+
+msgid "PAUSED"
+msgstr "خذ استراحة"
+
+msgid "PAUSE_DESCRIPTION"
+msgstr "تابع عندما تكون مستعدًا."
+
+msgid "RESUME"
+msgstr "متابعة"
+
+msgid "RESTART"
+msgstr "إعادة البدء"
+
+msgid "RESTART_BODY"
+msgstr "هل تبدأ جلسة جديدة؟ سيُفقد التقدم الحالي."
+
+msgid "MAIN_MENU"
+msgstr "القائمة الرئيسية"
+
+msgid "LEAVE_BODY"
+msgstr "هل تعود للقائمة؟ سيُفقد تقدم الجلسة."
+
+msgid "RESULT"
+msgstr "النتيجة"
+
+msgid "SESSION_COMPLETE"
+msgstr "اكتملت الجلسة"
+
+msgid "SESSION_ENDED"
+msgstr "جاهز لبداية جديدة."
+
+msgid "BEST_VALUE"
+msgstr "الأفضل"
+
+msgid "REPLAY"
+msgstr "العب مجددًا"
+
+msgid "MUSIC"
+msgstr "الموسيقى"
+
+msgid "SOUND"
+msgstr "المؤثرات الصوتية"
+
+msgid "HAPTIC"
+msgstr "الاهتزاز"
+
+msgid "REDUCED_MOTION"
+msgstr "تقليل الحركة"
+
+msgid "MASTER_VOLUME"
+msgstr "مستوى الصوت العام"
+
+msgid "MUSIC_VOLUME"
+msgstr "مستوى الموسيقى"
+
+msgid "SFX_VOLUME"
+msgstr "مستوى المؤثرات"
+
+msgid "LANGUAGE"
+msgstr "اللغة"
+
+msgid "SYSTEM_LANGUAGE"
+msgstr "لغة الجهاز"
+
+msgid "PREVIEW_SOUND"
+msgstr "تجربة الصوت"
+
+msgid "PREVIEW_HAPTIC"
+msgstr "تجربة الاهتزاز"
+
+msgid "SETTINGS_SAVED"
+msgstr "تُحفظ التغييرات تلقائيًا."
+
+msgid "DONE"
+msgstr "تم"
+
+msgid "ON"
+msgstr "تشغيل"
+
+msgid "OFF"
+msgstr "إيقاف"
+
+msgid "CONFIRM"
+msgstr "تأكيد"
+
+msgid "CANCEL"
+msgstr "إلغاء"
+
+msgid "QUIT_TITLE"
+msgstr "إغلاق التطبيق"
+
+msgid "QUIT_BODY"
+msgstr "هل تريد إغلاق التطبيق الآن؟"
+
+msgid "LOADING"
+msgstr "جارٍ التحضير…"
+
+msgid "SAVE_ERROR"
+msgstr "تعذر الحفظ. تبقى التغييرات حتى إغلاق التطبيق."
+
+msgid "SAVE_RECOVERY"
+msgstr "استُعيدت البيانات. قد لا تتوفر بعض التغييرات الأخيرة."
+
+msgid "SCENE_ERROR"
+msgstr "تعذر فتح الشاشة. حاول مجددًا."
+
+msgid "MODULE_ERROR"
+msgstr "يجب أن يرث المشهد المتصل GameModule."
+
+msgid "PRIVACY_OPTIONS"
+msgstr "خيارات الخصوصية"

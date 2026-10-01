@@ -1,0 +1,3 @@
+The shared Theme uses SystemFont with platform fallback (Latin, CJK, Arabic). No remotely loaded fonts. Place licensed, bundled game-specific fonts here when consistent typography is required; assign the font in resources/base_theme.tres and retain its license.
+
+Variable fonts: select the weight with `Design.variable_font(load("res://assets/fonts/<font>.ttf"), 800)`. Do not write `variation_opentype = {"wght": 800}` by hand: the String key is ignored and the font renders at its default instance (for many Korean variable fonts that is Thin, 100). Check the axes with `font.get_supported_variation_list()`.

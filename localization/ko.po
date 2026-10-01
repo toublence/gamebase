@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: ko\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "BRAND"
+msgstr "NAMSLAB"
+
+msgid "APP_TITLE"
+msgstr "새로운 시작"
+
+msgid "MENU_SUBTITLE"
+msgstr "다음 게임을 위한 단단한 기반."
+
+msgid "START"
+msgstr "세션 시작"
+
+msgid "SETTINGS"
+msgstr "설정"
+
+msgid "OFFLINE_READY"
+msgstr "오프라인에서도 언제나."
+
+msgid "GAME_HOST"
+msgstr "세션"
+
+msgid "HOST_READY"
+msgstr "여기에 게임을 연결하세요"
+
+msgid "HOST_DESCRIPTION"
+msgstr "아직 게임이 연결되지 않았습니다. 일시 정지, 설정 변경, 세션 종료로 공통 흐름을 확인하세요."
+
+msgid "END_SESSION"
+msgstr "세션 종료"
+
+msgid "PAUSE"
+msgstr "일시 정지"
+
+msgid "PAUSED"
+msgstr "잠시 쉬어가세요"
+
+msgid "PAUSE_DESCRIPTION"
+msgstr "준비되면 이어서 진행하세요."
+
+msgid "RESUME"
+msgstr "계속하기"
+
+msgid "RESTART"
+msgstr "다시 시작"
+
+msgid "RESTART_BODY"
+msgstr "새 세션을 시작할까요? 현재 진행 상황은 사라집니다."
+
+msgid "MAIN_MENU"
+msgstr "메인 메뉴"
+
+msgid "LEAVE_BODY"
+msgstr "메뉴로 돌아갈까요? 현재 세션 진행 상황은 사라집니다."
+
+msgid "RESULT"
+msgstr "결과"
+
+msgid "SESSION_COMPLETE"
+msgstr "세션 완료"
+
+msgid "SESSION_ENDED"
+msgstr "다시 시작할 준비가 되었습니다."
+
+msgid "BEST_VALUE"
+msgstr "최고 기록"
+
+msgid "REPLAY"
+msgstr "다시 하기"
+
+msgid "MUSIC"
+msgstr "음악"
+
+msgid "SOUND"
+msgstr "효과음"
+
+msgid "HAPTIC"
+msgstr "진동"
+
+msgid "REDUCED_MOTION"
+msgstr "애니메이션 줄이기"
+
+msgid "MASTER_VOLUME"
+msgstr "전체 음량"
+
+msgid "MUSIC_VOLUME"
+msgstr "음악 음량"
+
+msgid "SFX_VOLUME"
+msgstr "효과음 음량"
+
+msgid "LANGUAGE"
+msgstr "언어"
+
+msgid "SYSTEM_LANGUAGE"
+msgstr "기기 언어"
+
+msgid "PREVIEW_SOUND"
+msgstr "효과음 들어보기"
+
+msgid "PREVIEW_HAPTIC"
+msgstr "진동 확인"
+
+msgid "SETTINGS_SAVED"
+msgstr "변경 사항은 자동으로 저장됩니다."
+
+msgid "DONE"
+msgstr "완료"
+
+msgid "ON"
+msgstr "켜짐"
+
+msgid "OFF"
+msgstr "꺼짐"
+
+msgid "CONFIRM"
+msgstr "확인"
+
+msgid "CANCEL"
+msgstr "취소"
+
+msgid "QUIT_TITLE"
+msgstr "앱 종료"
+
+msgid "QUIT_BODY"
+msgstr "앱을 종료할까요?"
+
+msgid "LOADING"
+msgstr "준비 중…"
+
+msgid "SAVE_ERROR"
+msgstr "저장하지 못했습니다. 앱을 닫기 전까지 변경 사항이 유지됩니다."
+
+msgid "SAVE_RECOVERY"
+msgstr "저장 데이터를 복구했습니다. 최근 변경 사항 일부는 없을 수 있습니다."
+
+msgid "SCENE_ERROR"
+msgstr "화면을 열지 못했습니다. 다시 시도하세요."
+
+msgid "MODULE_ERROR"
+msgstr "연결된 Scene은 GameModule을 상속해야 합니다."
+
+msgid "PRIVACY_OPTIONS"
+msgstr "개인정보 선택"

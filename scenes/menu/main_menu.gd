@@ -1,0 +1,15 @@
+extends BasePage
+func _ready() -> void:
+	super._ready()
+	AudioManager.play_music(UI.config.menu_music)
+	body.add_child(Design.label("BRAND", 16, true))
+	body.add_child(Design.space(2))
+	body.add_child(Design.label("APP_TITLE", 42))
+	body.add_child(Design.label("MENU_SUBTITLE", 19, true))
+	body.add_child(Design.space(3))
+	var start_button := Design.button("START", func(): SceneManager.go_to("game"))
+	body.add_child(start_button)
+	body.add_child(Design.button("SETTINGS", UI.show_settings, true))
+	body.add_child(Design.space(2))
+	body.add_child(Design.label("OFFLINE_READY", 15, true))
+	start_button.grab_focus.call_deferred()

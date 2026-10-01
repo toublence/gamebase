@@ -1,0 +1,64 @@
+; Namslab reusable mobile foundation. Godot 4.7.2 stable.
+config_version=5
+
+[application]
+config/name="Namslab Base"
+run/main_scene="res://scenes/boot/boot.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://assets/icons/app.svg"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Namslab/gamebase"
+
+[autoload]
+SaveManager="*res://scripts/services/save_manager.gd"
+SettingsManager="*res://scripts/services/settings_manager.gd"
+AnalyticsService="*res://scripts/analytics/analytics_service.gd"
+AudioManager="*res://scripts/audio/audio_manager.gd"
+HapticManager="*res://scripts/haptics/haptic_manager.gd"
+GameSession="*res://scripts/core/game_session.gd"
+AppManager="*res://scripts/core/app_manager.gd"
+SceneManager="*res://scripts/core/scene_manager.gd"
+AdsManager="*res://scripts/ads/ads_manager.gd"
+UI="*res://scripts/ui/ui_service.gd"
+
+[display]
+window/size/viewport_width=480
+window/size/viewport_height=800
+window/size/window_width_override=480
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=6
+window/energy_saving/keep_screen_on=false
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.953, 0.957, 0.941, 1)
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/vram_compression/import_etc2_astc=true
+
+[audio]
+default_bus_layout="res://resources/default_bus_layout.tres"
+
+[input_devices]
+pointing/emulate_mouse_from_touch=true
+pointing/emulate_touch_from_mouse=false
+
+[gui]
+theme/custom="res://resources/base_theme.tres"
+
+[physics]
+common/physics_ticks_per_second=60
+
+[internationalization]
+locale/fallback="en"
+locale/translations=PackedStringArray("res://localization/en.po", "res://localization/ko.po", "res://localization/de.po", "res://localization/es.po", "res://localization/fr.po", "res://localization/ja.po", "res://localization/ar.po", "res://localization/zh_CN.po", "res://localization/zh_TW.po")
+
+[debug]
+gdscript/warnings/untyped_declaration=0
+
+[importer_defaults]
+texture={
+"mipmaps/generate": true
+}

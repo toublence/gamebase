@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "BRAND"
+msgstr "NAMSLAB"
+
+msgid "APP_TITLE"
+msgstr "新しいはじまり"
+
+msgid "MENU_SUBTITLE"
+msgstr "次のゲームのためのシンプルな基盤。"
+
+msgid "START"
+msgstr "セッションを開始"
+
+msgid "SETTINGS"
+msgstr "設定"
+
+msgid "OFFLINE_READY"
+msgstr "オフラインでも、いつでも。"
+
+msgid "GAME_HOST"
+msgstr "セッション"
+
+msgid "HOST_READY"
+msgstr "ここにゲームを接続"
+
+msgid "HOST_DESCRIPTION"
+msgstr "ゲームはまだ接続されていません。一時停止、設定変更、終了で共通の流れを確認できます。"
+
+msgid "END_SESSION"
+msgstr "セッションを終了"
+
+msgid "PAUSE"
+msgstr "一時停止"
+
+msgid "PAUSED"
+msgstr "ひと休み"
+
+msgid "PAUSE_DESCRIPTION"
+msgstr "準備ができたら再開しましょう。"
+
+msgid "RESUME"
+msgstr "再開"
+
+msgid "RESTART"
+msgstr "やり直す"
+
+msgid "RESTART_BODY"
+msgstr "新しいセッションを開始しますか？現在の進行状況は失われます。"
+
+msgid "MAIN_MENU"
+msgstr "メインメニュー"
+
+msgid "LEAVE_BODY"
+msgstr "メニューに戻りますか？現在の進行状況は失われます。"
+
+msgid "RESULT"
+msgstr "結果"
+
+msgid "SESSION_COMPLETE"
+msgstr "セッション完了"
+
+msgid "SESSION_ENDED"
+msgstr "また新しく始めましょう。"
+
+msgid "BEST_VALUE"
+msgstr "ベスト"
+
+msgid "REPLAY"
+msgstr "もう一度"
+
+msgid "MUSIC"
+msgstr "音楽"
+
+msgid "SOUND"
+msgstr "効果音"
+
+msgid "HAPTIC"
+msgstr "振動"
+
+msgid "REDUCED_MOTION"
+msgstr "動きを減らす"
+
+msgid "MASTER_VOLUME"
+msgstr "全体の音量"
+
+msgid "MUSIC_VOLUME"
+msgstr "音楽の音量"
+
+msgid "SFX_VOLUME"
+msgstr "効果音の音量"
+
+msgid "LANGUAGE"
+msgstr "言語"
+
+msgid "SYSTEM_LANGUAGE"
+msgstr "端末の言語"
+
+msgid "PREVIEW_SOUND"
+msgstr "効果音を確認"
+
+msgid "PREVIEW_HAPTIC"
+msgstr "振動を確認"
+
+msgid "SETTINGS_SAVED"
+msgstr "変更は自動で保存されます。"
+
+msgid "DONE"
+msgstr "完了"
+
+msgid "ON"
+msgstr "オン"
+
+msgid "OFF"
+msgstr "オフ"
+
+msgid "CONFIRM"
+msgstr "確認"
+
+msgid "CANCEL"
+msgstr "キャンセル"
+
+msgid "QUIT_TITLE"
+msgstr "アプリを終了"
+
+msgid "QUIT_BODY"
+msgstr "アプリを終了しますか？"
+
+msgid "LOADING"
+msgstr "準備中…"
+
+msgid "SAVE_ERROR"
+msgstr "保存できませんでした。アプリを閉じるまでは変更が保持されます。"
+
+msgid "SAVE_RECOVERY"
+msgstr "保存データの復旧が必要でした。最近の変更が失われた可能性があります。"
+
+msgid "SCENE_ERROR"
+msgstr "画面を開けませんでした。もう一度お試しください。"
+
+msgid "MODULE_ERROR"
+msgstr "接続するシーンはGameModuleを継承してください。"
+
+msgid "PRIVACY_OPTIONS"
+msgstr "プライバシーの選択"

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "BRAND"
+msgstr "NAMSLAB"
+
+msgid "APP_TITLE"
+msgstr "Ein neuer Anfang"
+
+msgid "MENU_SUBTITLE"
+msgstr "Eine klare Basis für dein nächstes Spiel."
+
+msgid "START"
+msgstr "Sitzung starten"
+
+msgid "SETTINGS"
+msgstr "Einstellungen"
+
+msgid "OFFLINE_READY"
+msgstr "Auch offline bereit."
+
+msgid "GAME_HOST"
+msgstr "Sitzung"
+
+msgid "HOST_READY"
+msgstr "Hier beginnt dein Spiel"
+
+msgid "HOST_DESCRIPTION"
+msgstr "Noch kein Spiel verbunden. Du kannst pausieren, Einstellungen ändern oder die Sitzung beenden."
+
+msgid "END_SESSION"
+msgstr "Sitzung beenden"
+
+msgid "PAUSE"
+msgstr "Pause"
+
+msgid "PAUSED"
+msgstr "Zeit für eine Pause"
+
+msgid "PAUSE_DESCRIPTION"
+msgstr "Mach weiter, wenn du bereit bist."
+
+msgid "RESUME"
+msgstr "Fortsetzen"
+
+msgid "RESTART"
+msgstr "Neu starten"
+
+msgid "RESTART_BODY"
+msgstr "Neue Sitzung starten? Der aktuelle Fortschritt geht verloren."
+
+msgid "MAIN_MENU"
+msgstr "Hauptmenü"
+
+msgid "LEAVE_BODY"
+msgstr "Zurück zum Menü? Der aktuelle Sitzungsfortschritt geht verloren."
+
+msgid "RESULT"
+msgstr "Ergebnis"
+
+msgid "SESSION_COMPLETE"
+msgstr "Sitzung abgeschlossen"
+
+msgid "SESSION_ENDED"
+msgstr "Bereit für einen neuen Anfang."
+
+msgid "BEST_VALUE"
+msgstr "Bestwert"
+
+msgid "REPLAY"
+msgstr "Erneut spielen"
+
+msgid "MUSIC"
+msgstr "Musik"
+
+msgid "SOUND"
+msgstr "Soundeffekte"
+
+msgid "HAPTIC"
+msgstr "Vibration"
+
+msgid "REDUCED_MOTION"
+msgstr "Bewegung reduzieren"
+
+msgid "MASTER_VOLUME"
+msgstr "Gesamtlautstärke"
+
+msgid "MUSIC_VOLUME"
+msgstr "Musiklautstärke"
+
+msgid "SFX_VOLUME"
+msgstr "Effektlautstärke"
+
+msgid "LANGUAGE"
+msgstr "Sprache"
+
+msgid "SYSTEM_LANGUAGE"
+msgstr "Gerätesprache"
+
+msgid "PREVIEW_SOUND"
+msgstr "Ton anhören"
+
+msgid "PREVIEW_HAPTIC"
+msgstr "Vibration testen"
+
+msgid "SETTINGS_SAVED"
+msgstr "Änderungen werden automatisch gespeichert."
+
+msgid "DONE"
+msgstr "Fertig"
+
+msgid "ON"
+msgstr "An"
+
+msgid "OFF"
+msgstr "Aus"
+
+msgid "CONFIRM"
+msgstr "Bestätigen"
+
+msgid "CANCEL"
+msgstr "Abbrechen"
+
+msgid "QUIT_TITLE"
+msgstr "App schließen"
+
+msgid "QUIT_BODY"
+msgstr "App jetzt schließen?"
+
+msgid "LOADING"
+msgstr "Wird vorbereitet…"
+
+msgid "SAVE_ERROR"
+msgstr "Speichern fehlgeschlagen. Änderungen bleiben bis zum Schließen verfügbar."
+
+msgid "SAVE_RECOVERY"
+msgstr "Der Speicherstand musste wiederhergestellt werden. Letzte Änderungen fehlen möglicherweise."
+
+msgid "SCENE_ERROR"
+msgstr "Der Bildschirm konnte nicht geöffnet werden. Bitte erneut versuchen."
+
+msgid "MODULE_ERROR"
+msgstr "Die verbundene Szene muss GameModule erweitern."
+
+msgid "PRIVACY_OPTIONS"
+msgstr "Datenschutzoptionen"

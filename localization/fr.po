@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "BRAND"
+msgstr "NAMSLAB"
+
+msgid "APP_TITLE"
+msgstr "Un nouveau départ"
+
+msgid "MENU_SUBTITLE"
+msgstr "Une base sereine pour votre prochain jeu."
+
+msgid "START"
+msgstr "Démarrer une session"
+
+msgid "SETTINGS"
+msgstr "Paramètres"
+
+msgid "OFFLINE_READY"
+msgstr "Prêt, même hors ligne."
+
+msgid "GAME_HOST"
+msgstr "Session"
+
+msgid "HOST_READY"
+msgstr "Votre jeu commence ici"
+
+msgid "HOST_DESCRIPTION"
+msgstr "Aucun jeu connecté. Vous pouvez faire une pause, modifier les paramètres ou terminer la session."
+
+msgid "END_SESSION"
+msgstr "Terminer la session"
+
+msgid "PAUSE"
+msgstr "Pause"
+
+msgid "PAUSED"
+msgstr "Prenez un instant"
+
+msgid "PAUSE_DESCRIPTION"
+msgstr "Reprenez quand vous le souhaitez."
+
+msgid "RESUME"
+msgstr "Reprendre"
+
+msgid "RESTART"
+msgstr "Recommencer"
+
+msgid "RESTART_BODY"
+msgstr "Démarrer une nouvelle session ? La progression actuelle sera perdue."
+
+msgid "MAIN_MENU"
+msgstr "Menu principal"
+
+msgid "LEAVE_BODY"
+msgstr "Retourner au menu ? La progression de la session sera perdue."
+
+msgid "RESULT"
+msgstr "Résultat"
+
+msgid "SESSION_COMPLETE"
+msgstr "Session terminée"
+
+msgid "SESSION_ENDED"
+msgstr "Prêt pour un nouveau départ."
+
+msgid "BEST_VALUE"
+msgstr "Meilleur"
+
+msgid "REPLAY"
+msgstr "Rejouer"
+
+msgid "MUSIC"
+msgstr "Musique"
+
+msgid "SOUND"
+msgstr "Effets sonores"
+
+msgid "HAPTIC"
+msgstr "Vibrations"
+
+msgid "REDUCED_MOTION"
+msgstr "Réduire les animations"
+
+msgid "MASTER_VOLUME"
+msgstr "Volume général"
+
+msgid "MUSIC_VOLUME"
+msgstr "Volume de la musique"
+
+msgid "SFX_VOLUME"
+msgstr "Volume des effets"
+
+msgid "LANGUAGE"
+msgstr "Langue"
+
+msgid "SYSTEM_LANGUAGE"
+msgstr "Langue de l’appareil"
+
+msgid "PREVIEW_SOUND"
+msgstr "Écouter le son"
+
+msgid "PREVIEW_HAPTIC"
+msgstr "Tester les vibrations"
+
+msgid "SETTINGS_SAVED"
+msgstr "Les changements sont enregistrés automatiquement."
+
+msgid "DONE"
+msgstr "Terminé"
+
+msgid "ON"
+msgstr "Oui"
+
+msgid "OFF"
+msgstr "Non"
+
+msgid "CONFIRM"
+msgstr "Confirmer"
+
+msgid "CANCEL"
+msgstr "Annuler"
+
+msgid "QUIT_TITLE"
+msgstr "Fermer l’application"
+
+msgid "QUIT_BODY"
+msgstr "Fermer l’application maintenant ?"
+
+msgid "LOADING"
+msgstr "Préparation…"
+
+msgid "SAVE_ERROR"
+msgstr "Échec de l’enregistrement. Les changements restent disponibles jusqu’à la fermeture."
+
+msgid "SAVE_RECOVERY"
+msgstr "Les données ont été récupérées. Certains changements récents peuvent manquer."
+
+msgid "SCENE_ERROR"
+msgstr "Impossible d’ouvrir cet écran. Réessayez."
+
+msgid "MODULE_ERROR"
+msgstr "La scène doit hériter de GameModule."
+
+msgid "PRIVACY_OPTIONS"
+msgstr "Choix de confidentialité"

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "BRAND"
+msgstr "NAMSLAB"
+
+msgid "APP_TITLE"
+msgstr "新的起点"
+
+msgid "MENU_SUBTITLE"
+msgstr "为下一款游戏准备的简洁基础。"
+
+msgid "START"
+msgstr "开始一局"
+
+msgid "SETTINGS"
+msgstr "设置"
+
+msgid "OFFLINE_READY"
+msgstr "离线也能使用。"
+
+msgid "GAME_HOST"
+msgstr "当前局"
+
+msgid "HOST_READY"
+msgstr "在这里接入游戏"
+
+msgid "HOST_DESCRIPTION"
+msgstr "尚未接入游戏。你可以暂停、修改设置或结束本局，体验通用流程。"
+
+msgid "END_SESSION"
+msgstr "结束本局"
+
+msgid "PAUSE"
+msgstr "暂停"
+
+msgid "PAUSED"
+msgstr "休息一下"
+
+msgid "PAUSE_DESCRIPTION"
+msgstr "准备好后随时继续。"
+
+msgid "RESUME"
+msgstr "继续"
+
+msgid "RESTART"
+msgstr "重新开始"
+
+msgid "RESTART_BODY"
+msgstr "开始新的一局？当前进度将丢失。"
+
+msgid "MAIN_MENU"
+msgstr "主菜单"
+
+msgid "LEAVE_BODY"
+msgstr "返回菜单？本局进度将丢失。"
+
+msgid "RESULT"
+msgstr "结果"
+
+msgid "SESSION_COMPLETE"
+msgstr "本局完成"
+
+msgid "SESSION_ENDED"
+msgstr "准备好重新开始。"
+
+msgid "BEST_VALUE"
+msgstr "最佳"
+
+msgid "REPLAY"
+msgstr "再来一次"
+
+msgid "MUSIC"
+msgstr "音乐"
+
+msgid "SOUND"
+msgstr "音效"
+
+msgid "HAPTIC"
+msgstr "振动"
+
+msgid "REDUCED_MOTION"
+msgstr "减少动态效果"
+
+msgid "MASTER_VOLUME"
+msgstr "总音量"
+
+msgid "MUSIC_VOLUME"
+msgstr "音乐音量"
+
+msgid "SFX_VOLUME"
+msgstr "音效音量"
+
+msgid "LANGUAGE"
+msgstr "语言"
+
+msgid "SYSTEM_LANGUAGE"
+msgstr "设备语言"
+
+msgid "PREVIEW_SOUND"
+msgstr "试听音效"
+
+msgid "PREVIEW_HAPTIC"
+msgstr "测试振动"
+
+msgid "SETTINGS_SAVED"
+msgstr "更改会自动保存。"
+
+msgid "DONE"
+msgstr "完成"
+
+msgid "ON"
+msgstr "开启"
+
+msgid "OFF"
+msgstr "关闭"
+
+msgid "CONFIRM"
+msgstr "确认"
+
+msgid "CANCEL"
+msgstr "取消"
+
+msgid "QUIT_TITLE"
+msgstr "关闭应用"
+
+msgid "QUIT_BODY"
+msgstr "现在关闭应用？"
+
+msgid "LOADING"
+msgstr "准备中…"
+
+msgid "SAVE_ERROR"
+msgstr "无法保存。关闭应用前，更改仍然有效。"
+
+msgid "SAVE_RECOVERY"
+msgstr "存档需要恢复。部分近期更改可能无法使用。"
+
+msgid "SCENE_ERROR"
+msgstr "无法打开此画面。请重试。"
+
+msgid "MODULE_ERROR"
+msgstr "接入的场景必须继承 GameModule。"
+
+msgid "PRIVACY_OPTIONS"
+msgstr "隐私选项"

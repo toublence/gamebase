@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "BRAND"
+msgstr "NAMSLAB"
+
+msgid "APP_TITLE"
+msgstr "A place to begin"
+
+msgid "MENU_SUBTITLE"
+msgstr "A calm foundation for your next game."
+
+msgid "START"
+msgstr "Start session"
+
+msgid "SETTINGS"
+msgstr "Settings"
+
+msgid "OFFLINE_READY"
+msgstr "Ready, even offline."
+
+msgid "GAME_HOST"
+msgstr "Session"
+
+msgid "HOST_READY"
+msgstr "Your game goes here"
+
+msgid "HOST_DESCRIPTION"
+msgstr "No game is attached yet. You can pause, change settings, or end this session to explore the shared flow."
+
+msgid "END_SESSION"
+msgstr "End session"
+
+msgid "PAUSE"
+msgstr "Pause"
+
+msgid "PAUSED"
+msgstr "Take a moment"
+
+msgid "PAUSE_DESCRIPTION"
+msgstr "Continue whenever you are ready."
+
+msgid "RESUME"
+msgstr "Resume"
+
+msgid "RESTART"
+msgstr "Restart"
+
+msgid "RESTART_BODY"
+msgstr "Start a new session? Current progress will be discarded."
+
+msgid "MAIN_MENU"
+msgstr "Main menu"
+
+msgid "LEAVE_BODY"
+msgstr "Return to the menu? Current session progress will be discarded."
+
+msgid "RESULT"
+msgstr "Result"
+
+msgid "SESSION_COMPLETE"
+msgstr "Session complete"
+
+msgid "SESSION_ENDED"
+msgstr "Ready for a fresh start."
+
+msgid "BEST_VALUE"
+msgstr "Best"
+
+msgid "REPLAY"
+msgstr "Play again"
+
+msgid "MUSIC"
+msgstr "Music"
+
+msgid "SOUND"
+msgstr "Sound effects"
+
+msgid "HAPTIC"
+msgstr "Haptics"
+
+msgid "REDUCED_MOTION"
+msgstr "Reduce motion"
+
+msgid "MASTER_VOLUME"
+msgstr "Overall volume"
+
+msgid "MUSIC_VOLUME"
+msgstr "Music volume"
+
+msgid "SFX_VOLUME"
+msgstr "Effects volume"
+
+msgid "LANGUAGE"
+msgstr "Language"
+
+msgid "SYSTEM_LANGUAGE"
+msgstr "Device language"
+
+msgid "PREVIEW_SOUND"
+msgstr "Preview sound"
+
+msgid "PREVIEW_HAPTIC"
+msgstr "Preview haptics"
+
+msgid "SETTINGS_SAVED"
+msgstr "Changes are saved automatically."
+
+msgid "DONE"
+msgstr "Done"
+
+msgid "ON"
+msgstr "On"
+
+msgid "OFF"
+msgstr "Off"
+
+msgid "CONFIRM"
+msgstr "Confirm"
+
+msgid "CANCEL"
+msgstr "Cancel"
+
+msgid "QUIT_TITLE"
+msgstr "Close app"
+
+msgid "QUIT_BODY"
+msgstr "Close the app now?"
+
+msgid "LOADING"
+msgstr "Getting ready…"
+
+msgid "SAVE_ERROR"
+msgstr "Could not save. Your changes remain available until you close the app."
+
+msgid "SAVE_RECOVERY"
+msgstr "Save recovery was needed. Some recent changes may be unavailable."
+
+msgid "SCENE_ERROR"
+msgstr "Unable to open this screen. Please try again."
+
+msgid "MODULE_ERROR"
+msgstr "The connected scene must extend GameModule."
+
+msgid "PRIVACY_OPTIONS"
+msgstr "Privacy choices"

@@ -1,0 +1,12 @@
+.godot/
+.DS_Store
+build/
+android/
+*.keystore
+*.jks
+*.p12
+*.pem
+.env*
+export_credentials.cfg
+local.properties
+__pycache__/
