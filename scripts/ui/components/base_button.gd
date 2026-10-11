@@ -3,8 +3,7 @@ extends Button
 var _press_tween: Tween
 
 func _ready() -> void:
-	# Never below the touch size; larger heights set before entering the tree are kept.
-	custom_minimum_size.y = maxf(custom_minimum_size.y, Design.TOUCH)
+	custom_minimum_size.y = Design.TOUCH
 	mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
 	text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	button_down.connect(_down)

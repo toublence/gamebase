@@ -17,9 +17,9 @@ func _ready() -> void:
 	load_save()
 
 func defaults() -> Dictionary:
-	return {"version": SCHEMA, "settings": {"music": true, "sound": true, "voice": true, "arrow_colors": false,
+	return {"version": SCHEMA, "settings": {"music": true, "sound": true,
 		"haptic": true, "reduced_motion": false, "master_volume": 1.0,
-		"music_volume": 0.45, "sfx_volume": 0.8, "language": "system"},
+		"music_volume": 0.7, "sfx_volume": 0.8, "language": "system"},
 		"common": {"first_run": true, "total_play_sessions": 0}, "games": {}}
 
 func load_save() -> void:
@@ -139,14 +139,6 @@ func set_game_data(game_key: String, value: Dictionary) -> bool:
 		return false
 	data["games"][game_key] = value.duplicate(true)
 	return flush()
-
-## Updates the in-memory namespace without writing. The next flush (explicit, background, or any
-## immediate set_game_data) persists it atomically together with everything else.
-func stage_game_data(game_key: String, value: Dictionary) -> bool:
-	if read_only or game_key.is_empty() or not _json_safe(value):
-		return false
-	data["games"][game_key] = value.duplicate(true)
-	return true
 
 func _json_safe(value: Variant, depth: int = 0) -> bool:
 	if depth > 32:

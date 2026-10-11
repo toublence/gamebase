@@ -11,5 +11,8 @@ func _ready() -> void:
 	body.add_child(replay_button)
 	body.add_child(Design.button("MAIN_MENU", AppManager.return_to_menu, true))
 	replay_button.grab_focus.call_deferred()
-	# Outtap shows its natural-break interstitial from the game's own "next stage" flow; this generic
-	# base result screen never requests ads.
+	SceneManager.transition_finished.connect(_after_transition, CONNECT_ONE_SHOT)
+
+func _after_transition(route: String) -> void:
+	if route == "result":
+		AdsManager.show_interstitial_on_natural_break()

@@ -7,11 +7,8 @@ func _ready() -> void:
 func set_adapter(adapter: AnalyticsAdapter) -> void:
 	_adapter = adapter if adapter != null else AnalyticsAdapter.new()
 
-## Every event is also kept in the local diagnostics log (on-device only). No external analytics
-## provider is configured; set_adapter() connects one (e.g. Firebase) once it exists.
 func track(event: StringName, parameters: Dictionary = {}) -> void:
 	_adapter.record(event, parameters.duplicate(true))
-	Diagnostics.log_event("analytics", String(event), parameters)
 
 func game_start() -> void:
 	track(&"game_start")

@@ -75,14 +75,10 @@ func _run() -> void:
 	HapticManager.medium()
 	HapticManager.strong()
 	HapticManager.success()
-	check(AdsManager.rewarded_offer_state() == "unavailable", "rewarded unavailable without a provider")
+	check(not AdsManager.is_rewarded_ready(), "offline rewarded unavailable")
 	var rewards: Array[bool] = []
-	AdsManager.show_rewarded("hint", "verify", func(_tx: String): rewards.append(true),
-		func(result: Dictionary): rewards.append(bool(result["granted"])))
+	AdsManager.show_rewarded(func(granted: bool): rewards.append(granted))
 	check(rewards == [false], "unavailable rewarded callback completes without reward")
-	# A returning player boots to Home (a first launch goes straight to stage 1; see arrow_flow_tests).
-	Progress.reload()
-	Progress.record_clear("a001", "campaign", true, 0)
 	check(get_tree().change_scene_to_file("res://scenes/boot/boot.tscn") == OK, "boot scene loads")
 	await SceneManager.transition_finished
 	check(SceneManager.current_route == "menu", "boot to menu")
@@ -101,9 +97,7 @@ func _run() -> void:
 	check(not SceneManager.go_to("menu"), "duplicate navigation rejected")
 	await SceneManager.transition_finished
 	check(GameSession.state == GameSession.State.ACTIVE, "host session started")
-	var shown := [0]
-	AdsManager.interstitial_opportunity("pause", {"level_index": 9}, func(): shown[0] += 1)
-	check(shown[0] == 1 and AdsManager.last_skip["reason"] != "", "no interstitial outside a natural break; play continues")
+	check(not AdsManager.show_interstitial_on_natural_break(), "interstitial blocked in gameplay")
 	AppManager.pause_game()
 	check(get_tree().paused and GameSession.state == GameSession.State.PAUSED, "pause stops scene tree")
 	UI.show_settings()
@@ -131,10 +125,7 @@ func _run() -> void:
 	check(get_tree().current_scene.is_layout_rtl(), "Arabic layout direction")
 	TranslationServer.set_locale("en")
 	await get_tree().process_frame
-	Progress.reset_progress()
 	print("BASE_VERIFY: %d checks, %d failures" % [checks, failures.size()])
 	for suffix in ["", ".bak", ".tmp"]:
 		DirAccess.remove_absolute(ProjectSettings.globalize_path(SaveManager.storage_path + suffix))
-	AudioManager.play_music(null)
-	await get_tree().create_timer(0.15, true).timeout
 	get_tree().quit(0 if failures.is_empty() else 1)

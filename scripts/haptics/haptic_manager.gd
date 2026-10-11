@@ -8,10 +8,6 @@ func strong() -> void:
 func success() -> void:
 	_pulse(65, 0.65)
 
-## Game-specific pattern (duration ms, amplitude 0..1). Respects the haptic setting.
-func pulse(duration: int, amplitude: float) -> void:
-	_pulse(duration, amplitude)
-
 func _pulse(duration: int, amplitude: float) -> void:
 	if not SettingsManager.get_value("haptic"):
 		return
