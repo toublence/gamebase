@@ -7,13 +7,13 @@ msgid "BRAND"
 msgstr "NAMSLAB"
 
 msgid "APP_TITLE"
-msgstr "A place to begin"
+msgstr "Outtap"
 
 msgid "MENU_SUBTITLE"
 msgstr "A calm foundation for your next game."
 
 msgid "START"
-msgstr "Start session"
+msgstr "Start"
 
 msgid "SETTINGS"
 msgstr "Settings"
@@ -37,10 +37,10 @@ msgid "PAUSE"
 msgstr "Pause"
 
 msgid "PAUSED"
-msgstr "Take a moment"
+msgstr "Paused"
 
 msgid "PAUSE_DESCRIPTION"
-msgstr "Continue whenever you are ready."
+msgstr "Your board waits right here."
 
 msgid "RESUME"
 msgstr "Resume"
@@ -79,7 +79,7 @@ msgid "SOUND"
 msgstr "Sound effects"
 
 msgid "HAPTIC"
-msgstr "Haptics"
+msgstr "Vibration"
 
 msgid "REDUCED_MOTION"
 msgstr "Reduce motion"
@@ -112,10 +112,10 @@ msgid "DONE"
 msgstr "Done"
 
 msgid "ON"
-msgstr "On"
+msgstr "ON"
 
 msgid "OFF"
-msgstr "Off"
+msgstr "OFF"
 
 msgid "CONFIRM"
 msgstr "Confirm"
@@ -145,4 +145,736 @@ msgid "MODULE_ERROR"
 msgstr "The connected scene must extend GameModule."
 
 msgid "PRIVACY_OPTIONS"
-msgstr "Privacy choices"
+msgstr "Ad privacy choices"
+
+msgid "APP_TAGLINE"
+msgstr "Untangle the arrows, one by one"
+
+msgid "CONTINUE"
+msgstr "Continue"
+
+msgid "IN_PROGRESS"
+msgstr "In progress"
+
+msgid "CHAPTER_N"
+msgstr "Chapter %d"
+
+msgid "CHAPTER_PROGRESS"
+msgstr "Chapter %d · %d/%d cleared"
+
+msgid "CHAPTER_CLEARED"
+msgstr "%d/%d cleared"
+
+msgid "CHAPTER_DONE"
+msgstr "Chapter %d complete"
+
+msgid "STAGE_N"
+msgstr "Stage %d"
+
+msgid "STAGES"
+msgstr "Stages"
+
+msgid "STAGES_PROGRESS"
+msgstr "%d/%d cleared"
+
+msgid "STAGE_LOCKED"
+msgstr "Clear the earlier stages first"
+
+msgid "STAGE_CLEAR"
+msgstr "Stage %d cleared!"
+
+msgid "NEXT_STAGE"
+msgstr "Next stage"
+
+msgid "NEXT_SWITCH"
+msgstr "Next puzzle"
+
+msgid "HOME"
+msgstr "Home"
+
+msgid "BACK"
+msgstr "Back"
+
+msgid "HINT"
+msgstr "Hint"
+
+msgid "UNDO"
+msgstr "Undo"
+
+msgid "UNDO_FREE"
+msgstr "Undo (free)"
+
+msgid "RESTART_LEVEL"
+msgstr "Restart stage"
+
+msgid "RESTART_FREE"
+msgstr "Try again (free)"
+
+msgid "PRACTICE"
+msgstr "Practice"
+
+msgid "HEARTS_LEFT"
+msgstr "%d hearts left"
+
+msgid "COMBO_N"
+msgstr "Combo %d"
+
+msgid "OUT_OF_HEARTS"
+msgstr "Out of hearts"
+
+msgid "FAIL_REASON"
+msgstr "You tapped a blocked block three times. Only blocks with a clear path to the edge can slide out."
+
+msgid "CONTINUE_AD"
+msgstr "Watch an ad: continue with 1 heart"
+
+msgid "CONTINUE_NOTICE"
+msgstr "One more heart. You've got this!"
+
+msgid "CLEAR_STATS"
+msgstr "%d blocks · %d mistakes"
+
+msgid "BADGE_PERFECT"
+msgstr "No mistakes"
+
+msgid "ALL_DONE"
+msgstr "You cleared every stage. Try today's challenge!"
+
+msgid "ALL_DONE_SHORT"
+msgstr "All stages cleared"
+
+msgid "DAILY_TITLE"
+msgstr "Daily challenge"
+
+msgid "DAILY_NEW"
+msgstr "A new puzzle today"
+
+msgid "DAILY_DONE"
+msgstr "Done for today"
+
+msgid "DAILY_CLEAR"
+msgstr "Daily challenge cleared!"
+
+msgid "DAILY_DONE_BODY"
+msgstr "A new board arrives tomorrow."
+
+msgid "DATE_FORMAT"
+msgstr "%d/%d"
+
+msgid "SWITCH_CHALLENGE"
+msgstr "Switch challenge"
+
+msgid "SWITCH_N"
+msgstr "Switch %d"
+
+msgid "SWITCH_SUBTITLE"
+msgstr "Order matters"
+
+msgid "SWITCH_PROGRESS"
+msgstr "%d/%d solved"
+
+msgid "SWITCH_LOCKED"
+msgstr "Opens after stage %d"
+
+msgid "SWITCH_LOCKED_TOAST"
+msgstr "Clear stage 30 to open the switch challenge"
+
+msgid "SWITCH_UNLOCKED"
+msgstr "Switch challenge unlocked"
+
+msgid "SWITCH_CLEAR"
+msgstr "Switch %d solved!"
+
+msgid "SWITCH_ALL_DONE"
+msgstr "All switch puzzles solved!"
+
+msgid "SWITCH_RULE_SHORT"
+msgstr "When a switch leaves, its lettered blocks turn clockwise"
+
+msgid "TAB_CAMPAIGN"
+msgstr "Stages"
+
+msgid "TAB_SWITCH"
+msgstr "Switch"
+
+msgid "COACH_TAP"
+msgstr "Tap an arrow. It slides out the way its head points."
+
+msgid "COACH_OPEN"
+msgstr "The long arrow in the middle is in the way. Free it first."
+
+msgid "COACH_LOOK"
+msgstr "Look ahead of each head: the way must be clear to the edge."
+
+msgid "COACH_HEARTS"
+msgstr "From here, tapping a blocked arrow costs a heart."
+
+msgid "COACH_CHAIN"
+msgstr "Each arrow you free opens a new way. Keep going!"
+
+msgid "COACH_BLOCKED"
+msgstr "Blocked! Find an arrow with a clear way ahead."
+
+msgid "COACH_SWITCH"
+msgstr "When a switch (ring) leaves, blocks with its letter turn clockwise."
+
+msgid "COACH_PREVIEW"
+msgstr "Hold a switch to preview the turn. Slide off to cancel."
+
+msgid "COACH_UNDO"
+msgstr "Stuck? Undo is free when no block can move."
+
+msgid "STUCK_NOTICE"
+msgstr "No block can move. Undo is free."
+
+msgid "UNDO_NEEDED"
+msgstr "This order can't be finished. Undo a move."
+
+msgid "AD_LOADING"
+msgstr "Getting an ad ready…"
+
+msgid "AD_UNAVAILABLE"
+msgstr "No ad available right now"
+
+msgid "AD_RETRY_LATER"
+msgstr "Ad not ready. It will retry shortly."
+
+msgid "AD_BUSY"
+msgstr "Please wait a moment"
+
+msgid "WATCH_AD"
+msgstr "Watch ad"
+
+msgid "REWARD_HINT_TITLE"
+msgstr "Extra hint"
+
+msgid "REWARD_HINT_BODY"
+msgstr "Watch a short ad to get 1 hint for this stage."
+
+msgid "REWARD_UNDO_TITLE"
+msgstr "Extra undo"
+
+msgid "REWARD_UNDO_BODY"
+msgstr "Watch a short ad to get 1 more undo for this puzzle."
+
+msgid "REWARD_CONTINUE_TITLE"
+msgstr "Continue with 1 heart"
+
+msgid "REWARD_CONTINUE_BODY"
+msgstr "Watch a short ad to keep this board and continue with 1 heart. Restarting is always free."
+
+msgid "REWARD_NOT_EARNED"
+msgstr "The ad closed early, so no reward was given."
+
+msgid "REWARD_LATE"
+msgstr "Your reward arrived and was added."
+
+msgid "THEMES"
+msgstr "Themes"
+
+msgid "THEME_PAPER"
+msgstr "Paper"
+
+msgid "THEME_MINT"
+msgstr "Mint"
+
+msgid "THEME_SKY"
+msgstr "Sky"
+
+msgid "THEME_SAND"
+msgstr "Sand"
+
+msgid "THEME_BLOSSOM"
+msgstr "Blossom"
+
+msgid "THEME_LOCKED"
+msgstr "Clear stage %d"
+
+msgid "THEME_IN_USE"
+msgstr "In use"
+
+msgid "THEME_UNLOCKED"
+msgstr "New theme: %s"
+
+msgid "PRIVACY_SECTION"
+msgstr "Privacy & ads"
+
+msgid "PRIVACY_NOTE"
+msgstr "Outtap has no account and no server. Ads are served by Google AdMob according to your consent choices."
+
+msgid "RESET_PROGRESS"
+msgstr "Reset progress"
+
+msgid "RESET_TITLE"
+msgstr "Reset progress?"
+
+msgid "RESET_BODY"
+msgstr "Cleared stages, badges, themes and today's record will be erased. Settings stay."
+
+msgid "RESET_NEXT"
+msgstr "Continue"
+
+msgid "RESET_CONFIRM_TITLE"
+msgstr "This can't be undone"
+
+msgid "RESET_CONFIRM_BODY"
+msgstr "Erase all progress now?"
+
+msgid "RESET_CONFIRM_ACTION"
+msgstr "Erase progress"
+
+msgid "RESET_DONE"
+msgstr "Progress reset"
+
+msgid "AD_DIAGNOSTICS"
+msgstr "Ad diagnostics"
+
+msgid "VERSION_LABEL"
+msgstr "Version %s · content %s"
+
+msgid "ATTEMPT_RESET"
+msgstr "The saved board changed with an update, so it starts fresh."
+
+msgid "LEVEL_DATA_REPAIRED"
+msgstr "A damaged stage was replaced with a checked one."
+
+msgid "FAIL_REASON_ARROWS"
+msgstr "You tapped blocked arrows three times. An arrow only leaves when the way ahead of its head is clear to the edge."
+
+msgid "CLEAR_STATS_ARROWS"
+msgstr "%d arrows · %d mistakes"
+
+msgid "CHAPTER1_DONE_BODY"
+msgstr "You finished every stage so far. New stages are on the way."
+
+msgid "FIT_BOARD"
+msgstr "Fit board"
+
+msgid "MIGRATION_NOTICE"
+msgstr "Outtap has new arrow puzzles. Your journey starts again from stage 1."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "CLOSE"
+msgstr "Close"
+
+msgid "HARD_INTRO_BODY"
+msgstr "A big one. Take your time:\nzoom in and find the way out."
+
+msgid "HARD_CLEAR"
+msgstr "%s stage %d cleared!"
+
+msgid "COACH_ZOOM"
+msgstr "Spread two fingers to zoom in. Double-tap empty space works too."
+
+msgid "TOUCH_AMBIGUOUS"
+msgstr "That was between two arrows. Tap right on one, or zoom in."
+
+msgid "WOW_TEXT"
+msgstr "Wow!"
+
+msgid "STAT_TIME"
+msgstr "Time"
+
+msgid "STAT_MISTAKES"
+msgstr "Mistakes"
+
+msgid "GOLD_COUNT"
+msgstr "Golden arrows %d of %d"
+
+msgid "LEAGUE_GAINED"
+msgstr "+%d league points"
+
+msgid "LEAGUE_PART_GOLD"
+msgstr "Golden arrows +%d"
+
+msgid "LEAGUE_PART_HARD"
+msgstr "Big stage +%d"
+
+msgid "LEAGUE_PART_PERFECT"
+msgstr "No mistakes +%d"
+
+msgid "LEAGUE_PART_FIRST_CLEAR"
+msgstr "First clear +%d"
+
+msgid "LEAGUE_ALREADY_CLAIMED"
+msgstr "This stage already gave its points this week."
+
+msgid "LEAGUE_PROMOTED"
+msgstr "Promoted to %s!"
+
+msgid "LEAGUE_BRONZE"
+msgstr "Bronze League"
+
+msgid "LEAGUE_SILVER"
+msgstr "Silver League"
+
+msgid "LEAGUE_GOLD"
+msgstr "Gold League"
+
+msgid "LEAGUE_PLATINUM"
+msgstr "Platinum League"
+
+msgid "LEAGUE_DIAMOND"
+msgstr "Diamond League"
+
+msgid "LEAGUE_POINTS_WEEK"
+msgstr "%d points this week"
+
+msgid "LEAGUE_TOP_KEEP"
+msgstr "Top league! %d points a week keeps it."
+
+msgid "LEAGUE_TO_NEXT"
+msgstr "%d more points to %s"
+
+msgid "LEAGUE_TITLE"
+msgstr "Weekly League"
+
+msgid "LEAGUE_HONEST"
+msgstr "A personal league: no other players, just you against last week's you. Points come only from your own clears on this device."
+
+msgid "LEAGUE_ENDS_IN"
+msgstr "Week ends in %d d %d h"
+
+msgid "LEAGUE_RULE_PROMOTE"
+msgstr "Up at %d"
+
+msgid "LEAGUE_RULE_KEEP"
+msgstr "Stay at %d"
+
+msgid "LEAGUE_YOU"
+msgstr "You"
+
+msgid "LEAGUE_LAST_WEEK"
+msgstr "Last week"
+
+msgid "LEAGUE_BEST"
+msgstr "Best"
+
+msgid "LEAGUE_LAST_WEEK_POINTS"
+msgstr "Last week: %d pts"
+
+msgid "LEAGUE_BEST_POINTS"
+msgstr "Best week: %d pts"
+
+msgid "LEAGUE_HOW_TITLE"
+msgstr "How to earn points"
+
+msgid "LEAGUE_HOW_GOLD"
+msgstr "• Golden arrows on a cleared board: +1 each"
+
+msgid "LEAGUE_HOW_HARD"
+msgstr "• Clear a big stage: +2"
+
+msgid "LEAGUE_HOW_PERFECT"
+msgstr "• Clear without a mistake: +1"
+
+msgid "LEAGUE_HOW_FIRST"
+msgstr "• First clear of a stage: +1 (once)"
+
+msgid "LEAGUE_HOW_WEEKLY"
+msgstr "Each stage pays once a week; replay it again next week."
+
+msgid "LEAGUE_REWARDS_TITLE"
+msgstr "Tier rewards"
+
+msgid "LEAGUE_REWARD_SKIN"
+msgstr "%s: %s arrows"
+
+msgid "LEAGUE_WEEK_RESULT"
+msgstr "Last week's league"
+
+msgid "LEAGUE_RESULT_KEPT"
+msgstr "You stay in the %s"
+
+msgid "LEAGUE_RESULT_DROPPED"
+msgstr "Back to the %s. Climb again this week!"
+
+msgid "LEAGUE_HOME"
+msgstr "%s · %d pts"
+
+msgid "STYLE"
+msgstr "Style"
+
+msgid "STYLE_SCENES"
+msgstr "Scene"
+
+msgid "STYLE_ARROWS"
+msgstr "Arrow colors"
+
+msgid "SCENE_AUTO"
+msgstr "Auto"
+
+msgid "SCENE_AUTO_NOTE"
+msgstr "Each stage picks its own"
+
+msgid "SCENE_MORNING"
+msgstr "Soft Morning"
+
+msgid "SCENE_SUNSET"
+msgstr "Sunset Flow"
+
+msgid "SCENE_HARBOR"
+msgstr "Night Harbor"
+
+msgid "SCENE_LOCKED"
+msgstr "Clear stage %d"
+
+msgid "SCENE_UNLOCKED"
+msgstr "New scene: %s"
+
+msgid "SKIN_CLASSIC"
+msgstr "Classic"
+
+msgid "SKIN_CANDY"
+msgstr "Candy"
+
+msgid "SKIN_OCEAN"
+msgstr "Ocean"
+
+msgid "SKIN_NEON"
+msgstr "Neon"
+
+msgid "SKIN_AURORA"
+msgstr "Aurora"
+
+msgid "SKIN_LOCKED"
+msgstr "Reach the %s"
+
+msgid "SKIN_UNLOCKED"
+msgstr "New arrow colors: %s"
+
+msgid "VOICE"
+msgstr "Voice cheers (AI voice)"
+
+msgid "VOICE_NOTE"
+msgstr "Korean and English. Other languages use sound effects."
+
+msgid "CREDITS"
+msgstr "Credits"
+
+msgid "CREDITS_VOICE"
+msgstr "Voice cheers are AI-generated speech made with Supertone Supertonic 2 (Open RAIL-M license). They are not a real person's voice."
+
+msgid "CREDITS_AUDIO"
+msgstr "Music and sound effects were synthesized for Outtap."
+
+msgid "CREDITS_FONT"
+msgstr "Font: SUIT (SIL Open Font License)"
+
+msgid "REDESIGN_NOTICE"
+msgstr "The stages were redesigned with new, bigger boards. Stage progress starts again from 1."
+
+msgid "NEXT"
+msgstr "Next"
+
+msgid "STORY_START"
+msgstr "Let's go"
+
+msgid "STORY_MOA"
+msgstr "Grandma Moa"
+
+msgid "STORY_PLACE"
+msgstr "Lighthouse keeper of Lumen Bay"
+
+msgid "STORY_CHAPTER1"
+msgstr "Chapter 1 · Pathfinder of Lumen Bay"
+
+msgid "STORY_INTRO_1"
+msgstr "Last night a storm swept through Lumen Bay."
+
+msgid "STORY_INTRO_2"
+msgstr "It knotted our wind-arrows, and the town's treasures got caught inside the tangles."
+
+msgid "STORY_INTRO_3"
+msgstr "Free the arrows one by one, little pathfinder. Every knot you open brings something home."
+
+msgid "STORY_HARD_1"
+msgstr "See the great apple tree? The storm tangled it hardest of all."
+
+msgid "STORY_HARD_2"
+msgstr "Take your time and look closely. Find the arrows that point to open sky first."
+
+msgid "STORY_EXPERT_1"
+msgstr "Even the harbor cat got caught. The tangles are getting deeper."
+
+msgid "STORY_EXPERT_2"
+msgstr "But you've already won back half the town. Keep going!"
+
+msgid "STORY_MASTER_1"
+msgstr "The heart of the storm is near. Now even the forest leaves are knotted."
+
+msgid "STORY_MASTER_2"
+msgstr "Only the last knots stand between us and the lighthouse light. Be brave!"
+
+msgid "STORY_LEGEND_1"
+msgstr "This is the last one. The town's heart is tied up in the deepest knot of all."
+
+msgid "STORY_LEGEND_2"
+msgstr "Untie it, and the lighthouse will shine again. I know you can."
+
+msgid "STORY_END_1"
+msgstr "You did it! The lighthouse is shining again."
+
+msgid "STORY_END_2"
+msgstr "Lumen Bay is awake again. Thank you, pathfinder."
+
+msgid "STORY_END_3"
+msgstr "But listen... a tangled wind is blowing from the Misty Forest. The next story begins soon."
+
+msgid "OBJ_SIGN"
+msgstr "Pier signpost"
+
+msgid "OBJ_LANE"
+msgstr "Village lane"
+
+msgid "OBJ_FISH"
+msgstr "School of fish"
+
+msgid "OBJ_STAR"
+msgstr "Sea star"
+
+msgid "OBJ_APPLE"
+msgstr "Apple tree"
+
+msgid "OBJ_MUSHROOM"
+msgstr "Forest mushroom"
+
+msgid "OBJ_WHALE"
+msgstr "Whale"
+
+msgid "OBJ_LIGHTHOUSE"
+msgstr "Lighthouse tower"
+
+msgid "OBJ_ANCHOR"
+msgstr "Anchor"
+
+msgid "OBJ_CAT"
+msgstr "Harbor cat"
+
+msgid "OBJ_SAILBOAT"
+msgstr "Sailboat"
+
+msgid "OBJ_HILL"
+msgstr "Back hill"
+
+msgid "OBJ_TURTLE"
+msgstr "Sea turtle"
+
+msgid "OBJ_CLOUD"
+msgstr "Fair-weather cloud"
+
+msgid "OBJ_LEAF"
+msgstr "Forest leaf"
+
+msgid "OBJ_HOUSE"
+msgstr "Grandma's house"
+
+msgid "OBJ_WAVE"
+msgstr "Gentle waves"
+
+msgid "OBJ_TREE"
+msgstr "Old zelkova"
+
+msgid "OBJ_BEACH"
+msgstr "Pebble beach"
+
+msgid "OBJ_HEART"
+msgstr "The town's heart"
+
+msgid "RESTORED"
+msgstr "%s is back!"
+
+msgid "TOWN_TITLE"
+msgstr "Lumen Bay"
+
+msgid "TOWN_PROGRESS"
+msgstr "Treasures brought home: %d/%d"
+
+msgid "TOWN_HOME"
+msgstr "Lumen Bay · %d/%d restored"
+
+msgid "TOWN_OPEN"
+msgstr "See the town"
+
+msgid "RATING_3"
+msgstr "Perfect!"
+
+msgid "RATING_2"
+msgstr "Great!"
+
+msgid "RATING_1"
+msgstr "Cleared!"
+
+msgid "STAT_SCORE"
+msgstr "Score"
+
+msgid "STAT_HINTS"
+msgstr "Hints"
+
+msgid "STREAK_TITLE"
+msgstr "Days in a row"
+
+msgid "STREAK_BODY"
+msgstr "Clear a stage every day to keep the lantern lit."
+
+msgid "WEEKDAY_0"
+msgstr "Mon"
+
+msgid "WEEKDAY_1"
+msgstr "Tue"
+
+msgid "WEEKDAY_2"
+msgstr "Wed"
+
+msgid "WEEKDAY_3"
+msgstr "Thu"
+
+msgid "WEEKDAY_4"
+msgstr "Fri"
+
+msgid "WEEKDAY_5"
+msgstr "Sat"
+
+msgid "WEEKDAY_6"
+msgstr "Sun"
+
+msgid "STUCK_HINT"
+msgstr "Stuck? Tap the bulb at the top right for a hint."
+
+msgid "ARROW_COLORS"
+msgstr "Color each arrow"
+
+msgid "ZOOM_IN"
+msgstr "Zoom in"
+
+msgid "RETRY"
+msgstr "Retry"
+
+msgid "RETRY_CAPTION"
+msgstr "Out of hearts · try again"
+
+msgid "CHECKPOINT_RESTORE"
+msgstr "Back to checkpoint (free)"
+
+msgid "CHECKPOINT_SAVED"
+msgstr "Checkpoint! Half the arrows are out. If you run out of hearts, you can come back here."
+
+msgid "CHECKPOINT_BACK"
+msgstr "Back at the checkpoint with full hearts."
+
+msgid "BLOCK_WARNING"
+msgstr "Blocked! The purple arrow is in the way of your red one. This first one is free: no heart lost."
+
+msgid "COACH_CAMERA"
+msgstr "Drag to look around, pinch to zoom. The corner button shows the whole board."
+
+msgid "BIG_CLEAR"
+msgstr "Big board cleared!"
+
+msgid "STORY_READ"
+msgstr "Read the story"
+
+msgid "CHECKPOINT_LEFT"
+msgstr "%d arrows left there"

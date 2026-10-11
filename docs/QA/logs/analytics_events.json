@@ -1,0 +1,1821 @@
+[
+  {
+    "event": "first_open",
+    "data": {
+      "content_version": "2026.10.5-maze"
+    }
+  },
+  {
+    "event": "game_start",
+    "data": {}
+  },
+  {
+    "event": "level_started",
+    "data": {
+      "active_play_time": 0,
+      "arrow_count": 3,
+      "attempt_id": "6ac9ed73-d74e7b240ad6",
+      "collisions": 0,
+      "difficulty": "easy",
+      "hard": false,
+      "hints_used": 0,
+      "level_id": "a001",
+      "mistakes": 0,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 0,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "tutorial_started",
+    "data": {
+      "level_id": "a001"
+    }
+  },
+  {
+    "event": "story_beat_seen",
+    "data": {
+      "beat": "intro",
+      "level_id": "a001"
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a001",
+      "opened": 0,
+      "remaining": 2,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a001",
+      "opened": 0,
+      "remaining": 1,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a001",
+      "opened": 0,
+      "remaining": 0,
+      "streak": 3
+    }
+  },
+  {
+    "event": "level_completed",
+    "data": {
+      "active_play_time": 175033,
+      "arrow_count": 3,
+      "attempt_id": "6ac9ed73-d74e7b240ad6",
+      "collisions": 0,
+      "difficulty": "easy",
+      "first_clear": true,
+      "gold": 0,
+      "hard": false,
+      "hints_used": 0,
+      "league_points": 2,
+      "level_id": "a001",
+      "mistakes": 0,
+      "mode": "campaign",
+      "perfect": true,
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "score": 57,
+      "seed": 0,
+      "stars": 3,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "ad_opportunity",
+    "data": {
+      "format": "interstitial",
+      "placement": "level_complete"
+    }
+  },
+  {
+    "event": "ad_skipped",
+    "data": {
+      "format": "interstitial",
+      "reason": "UNSUPPORTED_PLATFORM"
+    }
+  },
+  {
+    "event": "level_started",
+    "data": {
+      "active_play_time": 0,
+      "arrow_count": 17,
+      "attempt_id": "6ac9ee3b-74ba8ac09c20",
+      "collisions": 0,
+      "difficulty": "easy",
+      "hard": false,
+      "hints_used": 0,
+      "level_id": "a002",
+      "mistakes": 0,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 1731204424,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a002",
+      "opened": 2,
+      "remaining": 16,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a002",
+      "opened": 0,
+      "remaining": 15,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a002",
+      "opened": 1,
+      "remaining": 14,
+      "streak": 3
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a002",
+      "opened": 0,
+      "remaining": 13,
+      "streak": 4
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 9,
+      "level_id": "a002",
+      "opened": 2,
+      "remaining": 12,
+      "streak": 5
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a002",
+      "opened": 2,
+      "remaining": 11,
+      "streak": 6
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a002",
+      "opened": 1,
+      "remaining": 10,
+      "streak": 7
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 8,
+      "level_id": "a002",
+      "opened": 2,
+      "remaining": 9,
+      "streak": 8
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a002",
+      "opened": 1,
+      "remaining": 8,
+      "streak": 9
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 9,
+      "level_id": "a002",
+      "opened": 2,
+      "remaining": 7,
+      "streak": 10
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a002",
+      "opened": 0,
+      "remaining": 6,
+      "streak": 11
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a002",
+      "opened": 2,
+      "remaining": 5,
+      "streak": 12
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a002",
+      "opened": 0,
+      "remaining": 4,
+      "streak": 13
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a002",
+      "opened": 0,
+      "remaining": 3,
+      "streak": 14
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a002",
+      "opened": 0,
+      "remaining": 2,
+      "streak": 15
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a002",
+      "opened": 0,
+      "remaining": 1,
+      "streak": 16
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 6,
+      "level_id": "a002",
+      "opened": 0,
+      "remaining": 0,
+      "streak": 17
+    }
+  },
+  {
+    "event": "level_completed",
+    "data": {
+      "active_play_time": 76355,
+      "arrow_count": 17,
+      "attempt_id": "6ac9ee3b-74ba8ac09c20",
+      "collisions": 0,
+      "difficulty": "easy",
+      "first_clear": true,
+      "gold": 0,
+      "hard": false,
+      "hints_used": 0,
+      "league_points": 2,
+      "level_id": "a002",
+      "mistakes": 0,
+      "mode": "campaign",
+      "perfect": true,
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "score": 323,
+      "seed": 1731204424,
+      "stars": 3,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "ad_opportunity",
+    "data": {
+      "format": "interstitial",
+      "placement": "level_complete"
+    }
+  },
+  {
+    "event": "ad_skipped",
+    "data": {
+      "format": "interstitial",
+      "reason": "UNSUPPORTED_PLATFORM"
+    }
+  },
+  {
+    "event": "level_started",
+    "data": {
+      "active_play_time": 0,
+      "arrow_count": 24,
+      "attempt_id": "6ac9ee99-21344859611f",
+      "collisions": 0,
+      "difficulty": "easy",
+      "hard": false,
+      "hints_used": 0,
+      "level_id": "a003",
+      "mistakes": 0,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 602175699,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 9,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 23,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a003",
+      "opened": 1,
+      "remaining": 22,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 7,
+      "level_id": "a003",
+      "opened": 1,
+      "remaining": 21,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 12,
+      "level_id": "a003",
+      "opened": 4,
+      "remaining": 20,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 19,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 18,
+      "streak": 3
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a003",
+      "opened": 1,
+      "remaining": 17,
+      "streak": 4
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 16,
+      "streak": 5
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a003",
+      "opened": 2,
+      "remaining": 15,
+      "streak": 6
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 7,
+      "level_id": "a003",
+      "opened": 2,
+      "remaining": 14,
+      "streak": 7
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 13,
+      "streak": 8
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a003",
+      "opened": 1,
+      "remaining": 12,
+      "streak": 9
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a003",
+      "opened": 3,
+      "remaining": 11,
+      "streak": 10
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 10,
+      "streak": 11
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 9,
+      "level_id": "a003",
+      "opened": 2,
+      "remaining": 9,
+      "streak": 12
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 8,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 8,
+      "streak": 13
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 12,
+      "level_id": "a003",
+      "opened": 1,
+      "remaining": 7,
+      "streak": 14
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 9,
+      "level_id": "a003",
+      "opened": 1,
+      "remaining": 6,
+      "streak": 15
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a003",
+      "opened": 2,
+      "remaining": 5,
+      "streak": 16
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 4,
+      "streak": 17
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 6,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 3,
+      "streak": 18
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a003",
+      "opened": 1,
+      "remaining": 2,
+      "streak": 19
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 1,
+      "streak": 20
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a003",
+      "opened": 0,
+      "remaining": 0,
+      "streak": 21
+    }
+  },
+  {
+    "event": "level_completed",
+    "data": {
+      "active_play_time": 157235,
+      "arrow_count": 24,
+      "attempt_id": "6ac9ee99-21344859611f",
+      "collisions": 2,
+      "difficulty": "easy",
+      "first_clear": true,
+      "gold": 0,
+      "hard": false,
+      "hints_used": 0,
+      "league_points": 2,
+      "level_id": "a003",
+      "mistakes": 0,
+      "mode": "campaign",
+      "perfect": true,
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "score": 456,
+      "seed": 602175699,
+      "stars": 3,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "ad_opportunity",
+    "data": {
+      "format": "interstitial",
+      "placement": "level_complete"
+    }
+  },
+  {
+    "event": "ad_skipped",
+    "data": {
+      "format": "interstitial",
+      "reason": "UNSUPPORTED_PLATFORM"
+    }
+  },
+  {
+    "event": "level_started",
+    "data": {
+      "active_play_time": 0,
+      "arrow_count": 39,
+      "attempt_id": "6ac9ef43-3bd220beaeaa",
+      "collisions": 0,
+      "difficulty": "easy",
+      "hard": false,
+      "hints_used": 0,
+      "level_id": "a004",
+      "mistakes": 0,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 1118158292,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 38,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 6,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 37,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 36,
+      "streak": 3
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 35,
+      "streak": 4
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 9,
+      "level_id": "a004",
+      "opened": 3,
+      "remaining": 34,
+      "streak": 5
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 33,
+      "streak": 6
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 32,
+      "streak": 7
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 7,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 31,
+      "streak": 8
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 12,
+      "level_id": "a004",
+      "opened": 3,
+      "remaining": 30,
+      "streak": 9
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 29,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 28,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 27,
+      "streak": 3
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 8,
+      "level_id": "a004",
+      "opened": 2,
+      "remaining": 26,
+      "streak": 4
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 25,
+      "streak": 5
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 24,
+      "streak": 6
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 6,
+      "level_id": "a004",
+      "opened": 2,
+      "remaining": 23,
+      "streak": 7
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 7,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 22,
+      "streak": 8
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 9,
+      "level_id": "a004",
+      "opened": 2,
+      "remaining": 21,
+      "streak": 9
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 20,
+      "streak": 10
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 19,
+      "streak": 11
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 13,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 18,
+      "streak": 12
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 17,
+      "streak": 13
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 16,
+      "streak": 14
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": true,
+      "length": 6,
+      "level_id": "a004",
+      "opened": 2,
+      "remaining": 15,
+      "streak": 15
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 7,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 14,
+      "streak": 16
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 13,
+      "streak": 17
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 12,
+      "streak": 18
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 11,
+      "streak": 19
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 13,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 10,
+      "streak": 20
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 6,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 9,
+      "streak": 21
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a004",
+      "opened": 2,
+      "remaining": 8,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 7,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 6,
+      "streak": 3
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 5,
+      "streak": 4
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 4,
+      "streak": 5
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 3,
+      "streak": 6
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 6,
+      "level_id": "a004",
+      "opened": 1,
+      "remaining": 2,
+      "streak": 7
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 1,
+      "streak": 8
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a004",
+      "opened": 0,
+      "remaining": 0,
+      "streak": 9
+    }
+  },
+  {
+    "event": "level_completed",
+    "data": {
+      "active_play_time": 203417,
+      "arrow_count": 39,
+      "attempt_id": "6ac9ef43-3bd220beaeaa",
+      "collisions": 2,
+      "difficulty": "easy",
+      "first_clear": true,
+      "gold": 1,
+      "hard": false,
+      "hints_used": 0,
+      "league_points": 2,
+      "level_id": "a004",
+      "mistakes": 2,
+      "mode": "campaign",
+      "perfect": false,
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "score": 624,
+      "seed": 1118158292,
+      "stars": 2,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "tutorial_completed",
+    "data": {
+      "level_id": "a004"
+    }
+  },
+  {
+    "event": "scene_unlocked",
+    "data": {
+      "level_id": "a004",
+      "scene": "sunset"
+    }
+  },
+  {
+    "event": "ad_opportunity",
+    "data": {
+      "format": "interstitial",
+      "placement": "level_complete"
+    }
+  },
+  {
+    "event": "ad_skipped",
+    "data": {
+      "format": "interstitial",
+      "reason": "UNSUPPORTED_PLATFORM"
+    }
+  },
+  {
+    "event": "level_started",
+    "data": {
+      "active_play_time": 0,
+      "arrow_count": 93,
+      "attempt_id": "6ac9f01f-837d3ce1d8b3",
+      "collisions": 0,
+      "difficulty": "hard",
+      "hard": true,
+      "hints_used": 0,
+      "level_id": "a005",
+      "mistakes": 0,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 2493812193,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "first_hard_started",
+    "data": {
+      "active_play_time": 0,
+      "arrow_count": 93,
+      "attempt_id": "6ac9f01f-837d3ce1d8b3",
+      "collisions": 0,
+      "difficulty": "hard",
+      "hard": true,
+      "hints_used": 0,
+      "level_id": "a005",
+      "mistakes": 0,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 2493812193,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "story_beat_seen",
+    "data": {
+      "beat": "grade_1",
+      "level_id": "a005"
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 8,
+      "level_id": "a005",
+      "opened": 3,
+      "remaining": 92,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 91,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 90,
+      "streak": 3
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 89,
+      "streak": 4
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 13,
+      "level_id": "a005",
+      "opened": 4,
+      "remaining": 88,
+      "streak": 5
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 87,
+      "streak": 6
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 86,
+      "streak": 7
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 85,
+      "streak": 8
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 13,
+      "level_id": "a005",
+      "opened": 2,
+      "remaining": 84,
+      "streak": 9
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 10,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 83,
+      "streak": 10
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 82,
+      "streak": 11
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 6,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 81,
+      "streak": 12
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 13,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 80,
+      "streak": 13
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 79,
+      "streak": 14
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 78,
+      "streak": 15
+    }
+  },
+  {
+    "event": "hint_used",
+    "data": {
+      "active_play_time": 120045,
+      "arrow_count": 93,
+      "attempt_id": "6ac9f01f-837d3ce1d8b3",
+      "collisions": 1,
+      "difficulty": "hard",
+      "hard": true,
+      "hints_used": 1,
+      "level_id": "a005",
+      "mistakes": 1,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 2493812193,
+      "source": "free",
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "zoom_used",
+    "data": {
+      "active_play_time": 140045,
+      "arrow_count": 93,
+      "attempt_id": "6ac9f01f-837d3ce1d8b3",
+      "collisions": 1,
+      "difficulty": "hard",
+      "hard": true,
+      "hints_used": 1,
+      "level_id": "a005",
+      "method": "double_tap",
+      "mistakes": 1,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 2493812193,
+      "touch_misses": 0,
+      "zoom_used": true
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 7,
+      "level_id": "a005",
+      "opened": 2,
+      "remaining": 77,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 76,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a005",
+      "opened": 2,
+      "remaining": 75,
+      "streak": 3
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 7,
+      "level_id": "a005",
+      "opened": 2,
+      "remaining": 74,
+      "streak": 4
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 10,
+      "level_id": "a005",
+      "opened": 2,
+      "remaining": 73,
+      "streak": 5
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 11,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 72,
+      "streak": 6
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 9,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 71,
+      "streak": 7
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 70,
+      "streak": 8
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 6,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 69,
+      "streak": 9
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 5,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 68,
+      "streak": 10
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 67,
+      "streak": 11
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 66,
+      "streak": 12
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 65,
+      "streak": 13
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a005",
+      "opened": 2,
+      "remaining": 64,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 2,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 63,
+      "streak": 2
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 14,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 62,
+      "streak": 3
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 11,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 61,
+      "streak": 4
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 4,
+      "level_id": "a005",
+      "opened": 1,
+      "remaining": 60,
+      "streak": 5
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 7,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 59,
+      "streak": 6
+    }
+  },
+  {
+    "event": "level_failed",
+    "data": {
+      "active_play_time": 324226,
+      "arrow_count": 93,
+      "attempt_id": "6ac9f01f-837d3ce1d8b3",
+      "collisions": 4,
+      "difficulty": "hard",
+      "hard": true,
+      "hints_used": 1,
+      "level_id": "a005",
+      "mistakes": 3,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 2493812193,
+      "touch_misses": 0,
+      "zoom_used": true
+    }
+  },
+  {
+    "event": "ad_opportunity",
+    "data": {
+      "format": "interstitial",
+      "placement": "level_failed"
+    }
+  },
+  {
+    "event": "ad_skipped",
+    "data": {
+      "format": "interstitial",
+      "reason": "UNSUPPORTED_PLATFORM"
+    }
+  },
+  {
+    "event": "level_restarted",
+    "data": {
+      "active_play_time": 324226,
+      "arrow_count": 93,
+      "attempt_id": "6ac9f01f-837d3ce1d8b3",
+      "collisions": 4,
+      "difficulty": "hard",
+      "hard": true,
+      "hints_used": 1,
+      "level_id": "a005",
+      "mistakes": 3,
+      "mode": "campaign",
+      "retry_count": 0,
+      "ruleset": "arrow-path-2",
+      "seed": 2493812193,
+      "touch_misses": 0,
+      "zoom_used": true
+    }
+  },
+  {
+    "event": "level_started",
+    "data": {
+      "active_play_time": 0,
+      "arrow_count": 93,
+      "attempt_id": "6ac9f165-72493ae32ead",
+      "collisions": 0,
+      "difficulty": "hard",
+      "hard": true,
+      "hints_used": 0,
+      "level_id": "a005",
+      "mistakes": 0,
+      "mode": "campaign",
+      "retry_count": 1,
+      "ruleset": "arrow-path-2",
+      "seed": 2493812193,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 13,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 92,
+      "streak": 1
+    }
+  },
+  {
+    "event": "arrow_escaped",
+    "data": {
+      "golden": false,
+      "length": 3,
+      "level_id": "a005",
+      "opened": 0,
+      "remaining": 91,
+      "streak": 2
+    }
+  },
+  {
+    "event": "level_failed",
+    "data": {
+      "active_play_time": 90480,
+      "arrow_count": 93,
+      "attempt_id": "6ac9f165-72493ae32ead",
+      "collisions": 3,
+      "difficulty": "hard",
+      "hard": true,
+      "hints_used": 0,
+      "level_id": "a005",
+      "mistakes": 3,
+      "mode": "campaign",
+      "retry_count": 1,
+      "ruleset": "arrow-path-2",
+      "seed": 2493812193,
+      "touch_misses": 0,
+      "zoom_used": false
+    }
+  },
+  {
+    "event": "ad_opportunity",
+    "data": {
+      "format": "interstitial",
+      "placement": "level_failed"
+    }
+  },
+  {
+    "event": "ad_skipped",
+    "data": {
+      "format": "interstitial",
+      "reason": "UNSUPPORTED_PLATFORM"
+    }
+  },
+  {
+    "event": "settings_changed",
+    "data": {
+      "setting": "music",
+      "value": false
+    }
+  },
+  {
+    "event": "sound_settings_changed",
+    "data": {
+      "setting": "music",
+      "value": false
+    }
+  },
+  {
+    "event": "settings_changed",
+    "data": {
+      "setting": "voice",
+      "value": false
+    }
+  },
+  {
+    "event": "voice_settings_changed",
+    "data": {
+      "value": false
+    }
+  },
+  {
+    "event": "scene_selected",
+    "data": {
+      "scene": "morning"
+    }
+  },
+  {
+    "event": "game_start",
+    "data": {}
+  }
+]

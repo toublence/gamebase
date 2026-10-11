@@ -7,13 +7,13 @@ msgid "BRAND"
 msgstr "NAMSLAB"
 
 msgid "APP_TITLE"
-msgstr "新的起點"
+msgstr "Outtap"
 
 msgid "MENU_SUBTITLE"
 msgstr "為下一款遊戲準備的簡潔基礎。"
 
 msgid "START"
-msgstr "開始一局"
+msgstr "開始"
 
 msgid "SETTINGS"
 msgstr "設定"
@@ -37,16 +37,16 @@ msgid "PAUSE"
 msgstr "暫停"
 
 msgid "PAUSED"
-msgstr "休息一下"
+msgstr "已暫停"
 
 msgid "PAUSE_DESCRIPTION"
-msgstr "準備好後隨時繼續。"
+msgstr "棋盤會在這裡等你。"
 
 msgid "RESUME"
 msgstr "繼續"
 
 msgid "RESTART"
-msgstr "重新開始"
+msgstr "重來"
 
 msgid "RESTART_BODY"
 msgstr "開始新的一局？目前進度將遺失。"
@@ -112,10 +112,10 @@ msgid "DONE"
 msgstr "完成"
 
 msgid "ON"
-msgstr "開啟"
+msgstr "開"
 
 msgid "OFF"
-msgstr "關閉"
+msgstr "關"
 
 msgid "CONFIRM"
 msgstr "確認"
@@ -145,4 +145,736 @@ msgid "MODULE_ERROR"
 msgstr "接入的場景必須繼承 GameModule。"
 
 msgid "PRIVACY_OPTIONS"
-msgstr "隱私選項"
+msgstr "廣告隱私選項"
+
+msgid "APP_TAGLINE"
+msgstr "一根一根解開纏繞的箭頭"
+
+msgid "CONTINUE"
+msgstr "繼續"
+
+msgid "IN_PROGRESS"
+msgstr "進行中"
+
+msgid "CHAPTER_N"
+msgstr "第 %d 章"
+
+msgid "CHAPTER_PROGRESS"
+msgstr "第 %d 章 · 已完成 %d/%d"
+
+msgid "CHAPTER_CLEARED"
+msgstr "已完成 %d/%d"
+
+msgid "CHAPTER_DONE"
+msgstr "第 %d 章完成"
+
+msgid "STAGE_N"
+msgstr "第 %d 關"
+
+msgid "STAGES"
+msgstr "關卡"
+
+msgid "STAGES_PROGRESS"
+msgstr "已完成 %d/%d"
+
+msgid "STAGE_LOCKED"
+msgstr "請先通過前面的關卡"
+
+msgid "STAGE_CLEAR"
+msgstr "第 %d 關完成！"
+
+msgid "NEXT_STAGE"
+msgstr "下一關"
+
+msgid "NEXT_SWITCH"
+msgstr "下一題"
+
+msgid "HOME"
+msgstr "首頁"
+
+msgid "BACK"
+msgstr "返回"
+
+msgid "HINT"
+msgstr "提示"
+
+msgid "UNDO"
+msgstr "復原"
+
+msgid "UNDO_FREE"
+msgstr "復原（免費）"
+
+msgid "RESTART_LEVEL"
+msgstr "重新開始本關"
+
+msgid "RESTART_FREE"
+msgstr "再試一次（免費）"
+
+msgid "PRACTICE"
+msgstr "練習"
+
+msgid "HEARTS_LEFT"
+msgstr "剩餘 %d 顆心"
+
+msgid "COMBO_N"
+msgstr "連擊 %d"
+
+msgid "OUT_OF_HEARTS"
+msgstr "愛心用完了"
+
+msgid "FAIL_REASON"
+msgstr "你點了三次被擋住的方塊。只有箭頭前方直到邊緣都空著的方塊才能滑出。"
+
+msgid "CONTINUE_AD"
+msgstr "看廣告：用 1 顆心繼續"
+
+msgid "CONTINUE_NOTICE"
+msgstr "多一顆心，加油！"
+
+msgid "CLEAR_STATS"
+msgstr "%d 個方塊 · 失誤 %d 次"
+
+msgid "BADGE_PERFECT"
+msgstr "零失誤"
+
+msgid "ALL_DONE"
+msgstr "全部關卡已通過，試試今日挑戰吧！"
+
+msgid "ALL_DONE_SHORT"
+msgstr "全部關卡已通過"
+
+msgid "DAILY_TITLE"
+msgstr "今日挑戰"
+
+msgid "DAILY_NEW"
+msgstr "今日新謎題"
+
+msgid "DAILY_DONE"
+msgstr "今日已完成"
+
+msgid "DAILY_CLEAR"
+msgstr "今日挑戰完成！"
+
+msgid "DAILY_DONE_BODY"
+msgstr "明天會有新棋盤。"
+
+msgid "DATE_FORMAT"
+msgstr "%d月%d日"
+
+msgid "SWITCH_CHALLENGE"
+msgstr "開關挑戰"
+
+msgid "SWITCH_N"
+msgstr "開關 %d"
+
+msgid "SWITCH_SUBTITLE"
+msgstr "順序很重要"
+
+msgid "SWITCH_PROGRESS"
+msgstr "已解 %d/%d"
+
+msgid "SWITCH_LOCKED"
+msgstr "通過第 %d 關後開啟"
+
+msgid "SWITCH_LOCKED_TOAST"
+msgstr "通過第 30 關即可開啟開關挑戰"
+
+msgid "SWITCH_UNLOCKED"
+msgstr "開關挑戰已解鎖"
+
+msgid "SWITCH_CLEAR"
+msgstr "開關 %d 完成！"
+
+msgid "SWITCH_ALL_DONE"
+msgstr "開關謎題全部完成！"
+
+msgid "SWITCH_RULE_SHORT"
+msgstr "開關滑出後，同字母方塊順時針旋轉"
+
+msgid "TAB_CAMPAIGN"
+msgstr "關卡"
+
+msgid "TAB_SWITCH"
+msgstr "開關"
+
+msgid "COACH_TAP"
+msgstr "點按箭頭，它會朝箭頭方向滑出去。"
+
+msgid "COACH_OPEN"
+msgstr "中間那根長箭頭擋住了路，先把它移走。"
+
+msgid "COACH_LOOK"
+msgstr "看看箭頭前方：一直到邊緣都要空著。"
+
+msgid "COACH_HEARTS"
+msgstr "從現在起，點被擋住的箭頭會扣一顆心。"
+
+msgid "COACH_CHAIN"
+msgstr "每移走一根，就會打開新的路。繼續！"
+
+msgid "COACH_BLOCKED"
+msgstr "被擋住了！找前方空著的箭頭。"
+
+msgid "COACH_SWITCH"
+msgstr "開關（圓環）滑出後，帶同字母的方塊會順時針旋轉。"
+
+msgid "COACH_PREVIEW"
+msgstr "長按開關可預覽旋轉，滑開即可取消。"
+
+msgid "COACH_UNDO"
+msgstr "卡住了？沒有方塊能動時，復原免費。"
+
+msgid "STUCK_NOTICE"
+msgstr "沒有能動的方塊了。復原免費。"
+
+msgid "UNDO_NEEDED"
+msgstr "這個順序解不開，復原一步試試。"
+
+msgid "AD_LOADING"
+msgstr "正在準備廣告…"
+
+msgid "AD_UNAVAILABLE"
+msgstr "暫時沒有可用廣告"
+
+msgid "AD_RETRY_LATER"
+msgstr "廣告尚未就緒，稍後會重試。"
+
+msgid "AD_BUSY"
+msgstr "請稍候"
+
+msgid "WATCH_AD"
+msgstr "觀看廣告"
+
+msgid "REWARD_HINT_TITLE"
+msgstr "額外提示"
+
+msgid "REWARD_HINT_BODY"
+msgstr "看完一段短廣告，獲得本關 1 次提示。"
+
+msgid "REWARD_UNDO_TITLE"
+msgstr "額外復原"
+
+msgid "REWARD_UNDO_BODY"
+msgstr "看完一段短廣告，再獲得 1 次復原。"
+
+msgid "REWARD_CONTINUE_TITLE"
+msgstr "用 1 顆心繼續"
+
+msgid "REWARD_CONTINUE_BODY"
+msgstr "看完一段短廣告，保留目前棋盤並用 1 顆心繼續。重來永遠免費。"
+
+msgid "REWARD_NOT_EARNED"
+msgstr "廣告提前關閉，未獲得獎勵。"
+
+msgid "REWARD_LATE"
+msgstr "獎勵已到帳。"
+
+msgid "THEMES"
+msgstr "主題"
+
+msgid "THEME_PAPER"
+msgstr "紙張"
+
+msgid "THEME_MINT"
+msgstr "薄荷"
+
+msgid "THEME_SKY"
+msgstr "天空"
+
+msgid "THEME_SAND"
+msgstr "沙色"
+
+msgid "THEME_BLOSSOM"
+msgstr "花開"
+
+msgid "THEME_LOCKED"
+msgstr "通過第 %d 關解鎖"
+
+msgid "THEME_IN_USE"
+msgstr "使用中"
+
+msgid "THEME_UNLOCKED"
+msgstr "新主題：%s"
+
+msgid "PRIVACY_SECTION"
+msgstr "隱私與廣告"
+
+msgid "PRIVACY_NOTE"
+msgstr "Outtap 無需帳號也沒有伺服器。廣告由 Google AdMob 依你的同意選擇提供。"
+
+msgid "RESET_PROGRESS"
+msgstr "重設進度"
+
+msgid "RESET_TITLE"
+msgstr "要重設進度嗎？"
+
+msgid "RESET_BODY"
+msgstr "已通過的關卡、徽章、主題和挑戰紀錄將被清除，設定保留。"
+
+msgid "RESET_NEXT"
+msgstr "繼續"
+
+msgid "RESET_CONFIRM_TITLE"
+msgstr "此操作無法復原"
+
+msgid "RESET_CONFIRM_BODY"
+msgstr "現在清除全部進度？"
+
+msgid "RESET_CONFIRM_ACTION"
+msgstr "清除進度"
+
+msgid "RESET_DONE"
+msgstr "進度已重設"
+
+msgid "AD_DIAGNOSTICS"
+msgstr "廣告診斷"
+
+msgid "VERSION_LABEL"
+msgstr "版本 %s · 內容 %s"
+
+msgid "ATTEMPT_RESET"
+msgstr "已儲存的棋盤因更新而變化，將重新開始。"
+
+msgid "LEVEL_DATA_REPAIRED"
+msgstr "已用驗證過的關卡替換損壞的關卡。"
+
+msgid "FAIL_REASON_ARROWS"
+msgstr "你點了三次被擋住的箭頭。只有箭頭前方一直到邊緣都空著時才能滑出。"
+
+msgid "CLEAR_STATS_ARROWS"
+msgstr "%d 根箭頭 · 失誤 %d 次"
+
+msgid "CHAPTER1_DONE_BODY"
+msgstr "已通過目前所有關卡，新關卡正在準備中。"
+
+msgid "FIT_BOARD"
+msgstr "查看全盤"
+
+msgid "MIGRATION_NOTICE"
+msgstr "Outtap 換上了全新的箭頭謎題，從第 1 關重新開始。"
+
+msgid "OK"
+msgstr "好的"
+
+msgid "CLOSE"
+msgstr "關閉"
+
+msgid "HARD_INTRO_BODY"
+msgstr "大關卡來了。\n放大看看，慢慢找出路。"
+
+msgid "HARD_CLEAR"
+msgstr "%s 關卡 %d 完成！"
+
+msgid "COACH_ZOOM"
+msgstr "雙指張開即可放大，雙擊空白處也可以。"
+
+msgid "TOUCH_AMBIGUOUS"
+msgstr "點到了兩根箭頭之間。請直接點箭頭，或放大看看。"
+
+msgid "WOW_TEXT"
+msgstr "Wow!"
+
+msgid "STAT_TIME"
+msgstr "用時"
+
+msgid "STAT_MISTAKES"
+msgstr "失誤"
+
+msgid "GOLD_COUNT"
+msgstr "金色箭頭 %d/%d"
+
+msgid "LEAGUE_GAINED"
+msgstr "聯賽積分 +%d"
+
+msgid "LEAGUE_PART_GOLD"
+msgstr "金色箭頭 +%d"
+
+msgid "LEAGUE_PART_HARD"
+msgstr "大關卡 +%d"
+
+msgid "LEAGUE_PART_PERFECT"
+msgstr "零失誤 +%d"
+
+msgid "LEAGUE_PART_FIRST_CLEAR"
+msgstr "首次通關 +%d"
+
+msgid "LEAGUE_ALREADY_CLAIMED"
+msgstr "本關本週的積分已領取。"
+
+msgid "LEAGUE_PROMOTED"
+msgstr "晉級%s！"
+
+msgid "LEAGUE_BRONZE"
+msgstr "青銅聯賽"
+
+msgid "LEAGUE_SILVER"
+msgstr "白銀聯賽"
+
+msgid "LEAGUE_GOLD"
+msgstr "黃金聯賽"
+
+msgid "LEAGUE_PLATINUM"
+msgstr "白金聯賽"
+
+msgid "LEAGUE_DIAMOND"
+msgstr "鑽石聯賽"
+
+msgid "LEAGUE_POINTS_WEEK"
+msgstr "本週 %d 分"
+
+msgid "LEAGUE_TOP_KEEP"
+msgstr "最高聯賽！每週 %d 分即可保持。"
+
+msgid "LEAGUE_TO_NEXT"
+msgstr "再得 %d 分即可進入%s"
+
+msgid "LEAGUE_TITLE"
+msgstr "每週聯賽"
+
+msgid "LEAGUE_HONEST"
+msgstr "這是個人聯賽：沒有其他玩家，只和上週的自己比。積分只來自你在本裝置上通過的關卡。"
+
+msgid "LEAGUE_ENDS_IN"
+msgstr "本週結束還有 %d 天 %d 小時"
+
+msgid "LEAGUE_RULE_PROMOTE"
+msgstr "晉級 %d 分"
+
+msgid "LEAGUE_RULE_KEEP"
+msgstr "保級 %d 分"
+
+msgid "LEAGUE_YOU"
+msgstr "你"
+
+msgid "LEAGUE_LAST_WEEK"
+msgstr "上週"
+
+msgid "LEAGUE_BEST"
+msgstr "最佳"
+
+msgid "LEAGUE_LAST_WEEK_POINTS"
+msgstr "上週 %d 分"
+
+msgid "LEAGUE_BEST_POINTS"
+msgstr "最佳紀錄 %d 分"
+
+msgid "LEAGUE_HOW_TITLE"
+msgstr "如何獲得積分"
+
+msgid "LEAGUE_HOW_GOLD"
+msgstr "• 通關棋盤上的金色箭頭：每根 +1"
+
+msgid "LEAGUE_HOW_HARD"
+msgstr "• 通過大關卡：+2"
+
+msgid "LEAGUE_HOW_PERFECT"
+msgstr "• 零失誤通關：+1"
+
+msgid "LEAGUE_HOW_FIRST"
+msgstr "• 首次通過關卡：+1（一次）"
+
+msgid "LEAGUE_HOW_WEEKLY"
+msgstr "同一關卡每週只計分一次，下週可再次獲得。"
+
+msgid "LEAGUE_REWARDS_TITLE"
+msgstr "段位獎勵"
+
+msgid "LEAGUE_REWARD_SKIN"
+msgstr "%s：%s 箭頭"
+
+msgid "LEAGUE_WEEK_RESULT"
+msgstr "上週聯賽結果"
+
+msgid "LEAGUE_RESULT_KEPT"
+msgstr "保持在%s"
+
+msgid "LEAGUE_RESULT_DROPPED"
+msgstr "回到%s，本週再衝上去！"
+
+msgid "LEAGUE_HOME"
+msgstr "%s · %d 分"
+
+msgid "STYLE"
+msgstr "外觀"
+
+msgid "STYLE_SCENES"
+msgstr "背景"
+
+msgid "STYLE_ARROWS"
+msgstr "箭頭顏色"
+
+msgid "SCENE_AUTO"
+msgstr "自動"
+
+msgid "SCENE_AUTO_NOTE"
+msgstr "每關自動搭配"
+
+msgid "SCENE_MORNING"
+msgstr "柔和清晨"
+
+msgid "SCENE_SUNSET"
+msgstr "日落流光"
+
+msgid "SCENE_HARBOR"
+msgstr "夜色港灣"
+
+msgid "SCENE_LOCKED"
+msgstr "通過第 %d 關解鎖"
+
+msgid "SCENE_UNLOCKED"
+msgstr "新背景：%s"
+
+msgid "SKIN_CLASSIC"
+msgstr "經典"
+
+msgid "SKIN_CANDY"
+msgstr "糖果"
+
+msgid "SKIN_OCEAN"
+msgstr "海洋"
+
+msgid "SKIN_NEON"
+msgstr "霓虹"
+
+msgid "SKIN_AURORA"
+msgstr "極光"
+
+msgid "SKIN_LOCKED"
+msgstr "達到%s解鎖"
+
+msgid "SKIN_UNLOCKED"
+msgstr "新箭頭顏色：%s"
+
+msgid "VOICE"
+msgstr "語音鼓勵（AI 語音）"
+
+msgid "VOICE_NOTE"
+msgstr "提供韓語和英語，其他語言使用音效代替。"
+
+msgid "CREDITS"
+msgstr "製作資訊"
+
+msgid "CREDITS_VOICE"
+msgstr "語音鼓勵是用 Supertone Supertonic 2（Open RAIL-M 授權）生成的 AI 合成語音，並非真人聲音。"
+
+msgid "CREDITS_AUDIO"
+msgstr "音樂和音效均為 Outtap 專門合成。"
+
+msgid "CREDITS_FONT"
+msgstr "字型：SUIT（SIL 開放字型授權）"
+
+msgid "REDESIGN_NOTICE"
+msgstr "關卡已全新設計，盤面更大，關卡進度將從第 1 關重新開始。"
+
+msgid "NEXT"
+msgstr "下一步"
+
+msgid "STORY_START"
+msgstr "出發吧"
+
+msgid "STORY_MOA"
+msgstr "莫阿奶奶"
+
+msgid "STORY_PLACE"
+msgstr "盧門灣的燈塔守護人"
+
+msgid "STORY_CHAPTER1"
+msgstr "第1章 · 盧門灣的引路人"
+
+msgid "STORY_INTRO_1"
+msgstr "昨晚一場風暴席捲了盧門灣。"
+
+msgid "STORY_INTRO_2"
+msgstr "它把我們的風之箭頭纏成一團，鎮上的寶物都被困在裡面。"
+
+msgid "STORY_INTRO_3"
+msgstr "把箭頭一根根解開吧，小引路人。每解開一處，就有一樣東西回到鎮上。"
+
+msgid "STORY_HARD_1"
+msgstr "看到那棵大蘋果樹了嗎？風暴把它纏得最厲害。"
+
+msgid "STORY_HARD_2"
+msgstr "慢慢來，湊近看看。先找指向外面的箭頭。"
+
+msgid "STORY_EXPERT_1"
+msgstr "連海邊的貓都被困住了。纏結越來越深了。"
+
+msgid "STORY_EXPERT_2"
+msgstr "不過你已經找回了半個小鎮。繼續前進吧！"
+
+msgid "STORY_MASTER_1"
+msgstr "風暴中心近了。連森林的葉子都纏在一起了。"
+
+msgid "STORY_MASTER_2"
+msgstr "只剩最後幾處纏結，燈塔就能再次亮起。加油！"
+
+msgid "STORY_LEGEND_1"
+msgstr "這是最後一處了。小鎮之心被繫在最深的結裡。"
+
+msgid "STORY_LEGEND_2"
+msgstr "解開它，燈塔就會重新發光。你一定可以。"
+
+msgid "STORY_END_1"
+msgstr "你做到了！燈塔又亮起來了。"
+
+msgid "STORY_END_2"
+msgstr "盧門灣重新甦醒了。謝謝你，引路人。"
+
+msgid "STORY_END_3"
+msgstr "可是你聽……遠處的迷霧森林也吹來了纏結的風。下一段故事很快開始。"
+
+msgid "OBJ_SIGN"
+msgstr "碼頭路標"
+
+msgid "OBJ_LANE"
+msgstr "小鎮小巷"
+
+msgid "OBJ_FISH"
+msgstr "魚群"
+
+msgid "OBJ_STAR"
+msgstr "海星"
+
+msgid "OBJ_APPLE"
+msgstr "蘋果樹"
+
+msgid "OBJ_MUSHROOM"
+msgstr "森林蘑菇"
+
+msgid "OBJ_WHALE"
+msgstr "鯨魚"
+
+msgid "OBJ_LIGHTHOUSE"
+msgstr "燈塔"
+
+msgid "OBJ_ANCHOR"
+msgstr "船錨"
+
+msgid "OBJ_CAT"
+msgstr "海邊的貓"
+
+msgid "OBJ_SAILBOAT"
+msgstr "帆船"
+
+msgid "OBJ_HILL"
+msgstr "後山"
+
+msgid "OBJ_TURTLE"
+msgstr "海龜"
+
+msgid "OBJ_CLOUD"
+msgstr "晴天的雲"
+
+msgid "OBJ_LEAF"
+msgstr "森林的葉子"
+
+msgid "OBJ_HOUSE"
+msgstr "奶奶的家"
+
+msgid "OBJ_WAVE"
+msgstr "平靜的海浪"
+
+msgid "OBJ_TREE"
+msgstr "老櫸樹"
+
+msgid "OBJ_BEACH"
+msgstr "鵝卵石海灘"
+
+msgid "OBJ_HEART"
+msgstr "小鎮之心"
+
+msgid "RESTORED"
+msgstr "%s 回來了！"
+
+msgid "TOWN_TITLE"
+msgstr "盧門灣"
+
+msgid "TOWN_PROGRESS"
+msgstr "已找回的寶物 %d/%d"
+
+msgid "TOWN_HOME"
+msgstr "盧門灣 · 已修復 %d/%d"
+
+msgid "TOWN_OPEN"
+msgstr "查看小鎮"
+
+msgid "RATING_3"
+msgstr "Perfect!"
+
+msgid "RATING_2"
+msgstr "Great!"
+
+msgid "RATING_1"
+msgstr "Cleared!"
+
+msgid "STAT_SCORE"
+msgstr "得分"
+
+msgid "STAT_HINTS"
+msgstr "提示"
+
+msgid "STREAK_TITLE"
+msgstr "連續點燈天數"
+
+msgid "STREAK_BODY"
+msgstr "每天通關一關，燈籠就會一直亮著。"
+
+msgid "WEEKDAY_0"
+msgstr "一"
+
+msgid "WEEKDAY_1"
+msgstr "二"
+
+msgid "WEEKDAY_2"
+msgstr "三"
+
+msgid "WEEKDAY_3"
+msgstr "四"
+
+msgid "WEEKDAY_4"
+msgstr "五"
+
+msgid "WEEKDAY_5"
+msgstr "六"
+
+msgid "WEEKDAY_6"
+msgstr "日"
+
+msgid "STUCK_HINT"
+msgstr "卡住了？點右上角的燈泡獲取提示。"
+
+msgid "ARROW_COLORS"
+msgstr "箭頭分色"
+
+msgid "ZOOM_IN"
+msgstr "放大"
+
+msgid "RETRY"
+msgstr "再試一次"
+
+msgid "RETRY_CAPTION"
+msgstr "愛心用完了 · 再試一次"
+
+msgid "CHECKPOINT_RESTORE"
+msgstr "從檢查點繼續（免費）"
+
+msgid "CHECKPOINT_SAVED"
+msgstr "檢查點！已移出一半箭頭。愛心用完也能從這裡繼續。"
+
+msgid "CHECKPOINT_BACK"
+msgstr "已回到檢查點，愛心已滿。"
+
+msgid "BLOCK_WARNING"
+msgstr "被擋住了！紫色箭頭擋住了紅色箭頭的路。這次不扣愛心。"
+
+msgid "COACH_CAMERA"
+msgstr "拖動查看，雙指縮放。角落按鈕可查看整個盤面。"
+
+msgid "BIG_CLEAR"
+msgstr "大關卡完成！"
+
+msgid "STORY_READ"
+msgstr "閱讀故事"
+
+msgid "CHECKPOINT_LEFT"
+msgstr "從剩下的 %d 個箭頭開始"

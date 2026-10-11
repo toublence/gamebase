@@ -1,0 +1,16 @@
+{
+  "method": "isolated custom user directory; original saves never written by test",
+  "checked": {
+    "/Users/nam/Library/Application Support/Namslab/outtap/save.json.bak": {
+      "before": "b1a235fb4b96748d4fdd8b40691d4f1a09c3825b676ace6f9ca5c2bbc58c92c4",
+      "after": "b1a235fb4b96748d4fdd8b40691d4f1a09c3825b676ace6f9ca5c2bbc58c92c4",
+      "unchanged": true
+    },
+    "/Users/nam/Library/Application Support/Namslab/outtap/save.json": {
+      "before": "d51f53b56a0fece4545e0e8f43102c0ac25daa076542818ca778f52b85ff3231",
+      "after": "d51f53b56a0fece4545e0e8f43102c0ac25daa076542818ca778f52b85ff3231",
+      "unchanged": true
+    }
+  },
+  "all_unchanged": true
+}

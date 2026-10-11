@@ -10,3 +10,8 @@ android/
 export_credentials.cfg
 local.properties
 __pycache__/
+android_plugin/.gradle/
+android_plugin/build/
+android_plugin/outtap_ads/build/
+android_plugin/libs/
+android_plugin/local.properties

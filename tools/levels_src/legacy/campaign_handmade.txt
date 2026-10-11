@@ -1,0 +1,178 @@
+# Hand-authored campaign levels 1-20 (chapter 1). One block per chunk:
+#   @ <id> <tag> [soft] [coach=KEY]
+#   grid rows: ^ > v < arrows, . empty
+# Tags: easy / medium / hard / relief. "soft" = tutorial, mistakes never cost a heart.
+# Every board is re-validated by tools/build_levels.gd and tools/validate_levels.py.
+
+# 1. Burst: four free blocks. First tap, first exit.
+@ c001 easy soft coach=COACH_TAP
+. ^ .
+< . >
+. v .
+
+# 2. The center block holds two others. Clear it, both open.
+@ c002 easy soft coach=COACH_OPEN
+. v .
+> v .
+. . <
+
+# 3. Look along the whole arrow: the right-pointing block is stopped three cells away.
+@ c003 easy soft coach=COACH_LOOK
+. . v .
+> . . v
+. . . .
+. ^ . <
+
+# 4. Domino ring: one free block, then every tap opens the next. Hearts start here.
+@ c004 easy coach=COACH_HEARTS
+v < < <
+v . . ^
+v . . ^
+v > > ^
+
+# 5. Zipper: the column unzips and frees a side block on every step.
+@ c005 easy coach=COACH_CHAIN
+. . ^ . .
+. > ^ . .
+. . ^ < .
+. > ^ . .
+. . ^ < .
+
+# 6. Crossroads: the center gate holds a row and a column.
+@ c006 medium
+. . v . .
+. . v . .
+> > v > >
+. . . . .
+< . . . ^
+
+# 7. Double gate: corners wait for the middle row to clear.
+@ c007 medium
+v . . . v
+v . ^ . v
+> > ^ > >
+. . ^ . .
+< . . . >
+
+# 8. Burst: a big, fast clear after two lessons.
+@ c008 relief
+. ^ ^ ^ .
+< ^ ^ ^ >
+< < . > >
+< v v v >
+. v v v .
+
+# 9. Stairs: a long diagonal chain with one side entrance.
+@ c009 medium
+> v . . . .
+. > v . . .
+. . > v . .
+. . . > v .
+. . . . > v
+< < < < < .
+
+# 10. Comb: the bottom row releases the teeth one by one.
+@ c010 medium
+v v v v v
+> > > > v
+v v v v .
+< < < < <
+. . . . .
+
+# 11. Symmetric frame with long sight lines.
+@ c011 hard
+< v ^ < ^ <
+^ . . . . ^
+> . . . ^ >
+< v . . . <
+v . . . . v
+> v > v ^ >
+
+# 12. Heart: wide open, satisfying sweep.
+@ c012 relief
+. ^ ^ . ^ ^ .
+< < ^ . ^ > >
+< < v ^ v > >
+. < v ^ v > .
+. . < ^ > . .
+. . . v . . .
+
+# 13. Onion: the outer ring unwinds before the inner ring can move.
+@ c013 hard
+< < < < <
+v > > > ^
+v ^ . v ^
+v ^ < < ^
+> > > > ^
+
+# 14. Upward arrow: two columns that flow in opposite directions.
+@ c014 medium
+. . ^ ^ . .
+. ^ ^ ^ ^ .
+< < v ^ > >
+. . v ^ . .
+. . v > . .
+. . v ^ . .
+. . v v . .
+
+# 15. Diamond with crossing lanes.
+@ c015 medium
+. . . < . . .
+. . ^ ^ < . .
+. > . > v ^ .
+^ . ^ v v . <
+. v ^ < . < .
+. . > v v . .
+. . . > . . .
+
+# 16. Ring: a breather with many open edges.
+@ c016 relief
+< . . > ^ ^
+. < ^ v > ^
+. > . . . v
+< . . . . <
+^ . . . < .
+v < ^ v > .
+v v < . . >
+
+# 17. Hourglass: only six blocks start free.
+@ c017 hard
+^ < . v v <
+^ > . . > v
+. < ^ < < .
+. . ^ v . .
+. > > v > .
+^ < . . < v
+> ^ ^ . > v
+
+# 18. Oval frame: four free blocks hold the whole board.
+@ c018 hard
+. < < < < .
+v . . > v ^
+v . v . > ^
+v ^ v . v ^
+v < . ^ . ^
+v ^ < . . ^
+. > > > > .
+
+# 19. Dense field before the finale.
+@ c019 hard
+v ^ ^ < > ^
+v < v . v .
+v < < < . .
+v . v . . >
+< . . ^ . ^
+. . > > > ^
+. ^ . ^ > ^
+v < > v v ^
+
+# 20. Chapter finale: a heart that opens wide once its core gives way.
+@ c020 relief
+. ^ ^ . ^ ^ .
+^ ^ ^ < v . ^
+< < < < v < <
+^ v > . > v v
+. v < . < v .
+. . ^ > > . .
+. . . > . . .
+. . . > . . .

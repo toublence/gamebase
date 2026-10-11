@@ -1,0 +1,7 @@
+﻿level,attempt,difficulty_log,display_label,status,play_time_s,first_move_time_s,collisions,game_mistakes,retries,hints,manual_zoom,fit_button_used,fun_codex,frustration_codex,notes
+1,1,easy,연습,cleared,175.033,NOT_MEASURED,0,0,0,0,False,False,3,1,GUI 창 선택 문제와 이야기 대기 포함
+2,1,easy,연습,cleared,76.355,NOT_MEASURED,0,0,0,0,False,False,4,1,차단 관계를 따라 17개 제거
+3,1,easy,연습,cleared,157.235,NOT_MEASURED,2,0,0,0,False,True,3,3,외곽 잘림; 연습 충돌 2회는 실수 0으로 표시
+4,1,easy,등급 배지 없음,cleared,203.417,NOT_MEASURED,2,2,0,0,False,True,3,3,39개; 충돌 2회; 금색 1개 수집
+5,1,hard,HARD,failed,324.226,NOT_MEASURED,4,3,0,1,True,True,2,5,미클리어; 93개; 2차 시도는 의도하지 않은 재시작 이후 조작 오염
+5,2,hard,HARD,failed,90.48,NOT_MEASURED,3,3,1,0,False,True,2,5,미클리어; 93개; 2차 시도는 의도하지 않은 재시작 이후 조작 오염

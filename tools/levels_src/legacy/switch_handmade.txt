@@ -1,0 +1,25 @@
+# Hand-authored switch challenge tutorials. Tokens: arrow + uppercase letter = switch with that
+# label; arrow + lowercase letters = linked to those switches.
+
+# S1. The target faces a wall; the switch turns it free. Only one order works.
+@ s001 easy coach=COACH_SWITCH
+. . . .
+. >a < .
+. . . .
+. . . >A
+
+# S2. Order matters: firing the switch first turns the target into the block below it.
+@ s002 easy coach=COACH_PREVIEW
+. . . .
+^A >a . .
+. ^ . .
+. . . .
+
+# S3. One switch, two targets: the top turn frees a facing pair, but the lower target must
+# leave before the switch fires or it turns into the block on its right.
+@ s003 medium coach=COACH_UNDO
+. v . . .
+. >a . < .
+. . . . .
+^A . ^a . <
+. . . . >

@@ -1,0 +1,13 @@
+# Outtap chapter 1, stage 1 (rules "arrow-path-2", schema 2): the hand-made first touch. Stages 2-20
+# are generated and frozen in chapter1_gen.txt / a005_hard.txt; each one is harder than the last.
+# Format: "@ id tag [soft] [final] [coach=KEY] [shape=NAME] [theme=NAME] [seed=N gen=V]", "size W H",
+# then one arrow per line: "x,y:MOVES" = tail cell, then U/R/D/L steps to the head. The head points
+# along the last step. "soft" = practice board: blocked taps cost no heart.
+# Every board is re-validated with the real rules on build.
+
+# 1 (5-10 s). Three long arrows, all free: tap one and watch it slide out along its own path.
+@ a001 easy soft coach=COACH_TAP theme=morning
+size 5 6
+0,5:UUUU
+2,5:UURR
+1,0:RRR

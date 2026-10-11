@@ -1,0 +1,190 @@
+ M .gitignore
+ M assets/audio/ui_click.wav
+ M assets/icons/app.svg
+ M assets/icons/app.svg.import
+ M assets/icons/pause.svg
+R  README.md -> docs/BASE_TEMPLATE.md
+ M export_presets.cfg
+ M localization/ar.po
+ M localization/de.po
+ M localization/en.po
+ M localization/es.po
+ M localization/fr.po
+ M localization/ja.po
+ M localization/ko.po
+ M localization/zh_CN.po
+ M localization/zh_TW.po
+ M project.godot
+ M resources/base_config.tres
+ M resources/default_bus_layout.tres
+ M scenes/boot/boot.gd
+ M scenes/game/game_host.gd
+ M scenes/menu/main_menu.gd
+ M scenes/pause/pause_overlay.gd
+ M scenes/result/result.gd
+ M scenes/settings/settings.gd
+ M scripts/ads/ads_adapter.gd
+ M scripts/ads/ads_manager.gd
+ M scripts/analytics/analytics_service.gd
+ M scripts/audio/audio_manager.gd
+ M scripts/core/app_manager.gd
+ M scripts/core/scene_manager.gd
+ M scripts/haptics/haptic_manager.gd
+ M scripts/services/save_manager.gd
+ M scripts/ui/components/base_button.gd
+ M scripts/ui/components/confirm_dialog.gd
+ M scripts/ui/design.gd
+ M scripts/ui/page.gd
+ M scripts/ui/safe_area.gd
+ M scripts/ui/ui_service.gd
+ M tests/verify.gd
+ M tools/verify.py
+?? README.md
+?? addons/
+?? android_plugin/
+?? assets/art/
+?? assets/audio/bump.wav
+?? assets/audio/bump.wav.import
+?? assets/audio/clear.wav
+?? assets/audio/clear.wav.import
+?? assets/audio/clear_hard.wav
+?? assets/audio/clear_hard.wav.import
+?? assets/audio/clear_small.wav
+?? assets/audio/clear_small.wav.import
+?? assets/audio/combo.wav
+?? assets/audio/combo.wav.import
+?? assets/audio/fail.wav
+?? assets/audio/fail.wav.import
+?? assets/audio/gold.wav
+?? assets/audio/gold.wav.import
+?? assets/audio/hard_intro.wav
+?? assets/audio/hard_intro.wav.import
+?? assets/audio/hint.wav
+?? assets/audio/hint.wav.import
+?? assets/audio/life.wav
+?? assets/audio/life.wav.import
+?? assets/audio/music_calm.ogg
+?? assets/audio/music_calm.ogg.import
+?? assets/audio/music_hard.ogg
+?? assets/audio/music_hard.ogg.import
+?? assets/audio/music_tense.ogg
+?? assets/audio/music_tense.ogg.import
+?? assets/audio/path.wav
+?? assets/audio/path.wav.import
+?? assets/audio/promote.wav
+?? assets/audio/promote.wav.import
+?? assets/audio/slide.wav
+?? assets/audio/slide.wav.import
+?? assets/audio/slide_long.wav
+?? assets/audio/slide_long.wav.import
+?? assets/audio/slide_short.wav
+?? assets/audio/slide_short.wav.import
+?? assets/audio/tap.wav
+?? assets/audio/tap.wav.import
+?? assets/audio/unlock.wav
+?? assets/audio/unlock.wav.import
+?? assets/audio/wow.wav
+?? assets/audio/wow.wav.import
+?? assets/fonts/SUIT-OFL.txt
+?? assets/fonts/SUIT-Variable.ttf
+?? assets/fonts/SUIT-Variable.ttf.import
+?? assets/icons/ad.svg
+?? assets/icons/ad.svg.import
+?? assets/icons/back.svg
+?? assets/icons/back.svg.import
+?? assets/icons/calendar.svg
+?? assets/icons/calendar.svg.import
+?? assets/icons/chart.svg
+?? assets/icons/chart.svg.import
+?? assets/icons/check.svg
+?? assets/icons/check.svg.import
+?? assets/icons/close.svg
+?? assets/icons/close.svg.import
+?? assets/icons/grid.svg
+?? assets/icons/grid.svg.import
+?? assets/icons/heart.svg
+?? assets/icons/heart.svg.import
+?? assets/icons/heart_empty.svg
+?? assets/icons/heart_empty.svg.import
+?? assets/icons/hint.svg
+?? assets/icons/hint.svg.import
+?? assets/icons/home.svg
+?? assets/icons/home.svg.import
+?? assets/icons/info.svg
+?? assets/icons/info.svg.import
+?? assets/icons/lock.svg
+?? assets/icons/lock.svg.import
+?? assets/icons/play.svg
+?? assets/icons/play.svg.import
+?? assets/icons/restart.svg
+?? assets/icons/restart.svg.import
+?? assets/icons/rotate.svg
+?? assets/icons/rotate.svg.import
+?? assets/icons/settings.svg
+?? assets/icons/settings.svg.import
+?? assets/icons/star.svg
+?? assets/icons/star.svg.import
+?? assets/icons/switch.svg
+?? assets/icons/switch.svg.import
+?? assets/icons/theme.svg
+?? assets/icons/theme.svg.import
+?? assets/icons/undo.svg
+?? assets/icons/undo.svg.import
+?? assets/voice/
+?? docs/.gdignore
+?? docs/ADMOB_INTEGRATION.md
+?? docs/AUDIO.md
+?? docs/GAME_DESIGN.md
+?? docs/LEVEL_VALIDATION.md
+?? docs/QA/
+?? docs/QA_REPORT.md
+?? docs/REPORT_2026-10-09.md
+?? docs/screens/
+?? game/
+?? history.md
+?? scenes/debug/
+?? scenes/levels/
+?? scripts/ads/ad_policy.gd
+?? scripts/ads/ad_policy.gd.uid
+?? scripts/ads/ad_slot.gd
+?? scripts/ads/ad_slot.gd.uid
+?? scripts/ads/admob_android_adapter.gd
+?? scripts/ads/admob_android_adapter.gd.uid
+?? scripts/ads/ads_config.gd
+?? scripts/ads/ads_config.gd.uid
+?? scripts/ui/components/switch_toggle.gd
+?? scripts/ui/components/switch_toggle.gd.uid
+?? tests/ads_tests.gd
+?? tests/ads_tests.gd.uid
+?? tests/ads_tests.tscn
+?? tests/arrow_core_tests.gd
+?? tests/arrow_core_tests.gd.uid
+?? tests/arrow_flow_tests.gd
+?? tests/arrow_flow_tests.gd.uid
+?? tests/arrow_flow_tests.tscn
+?? tests/arrow_generator_property_tests.gd
+?? tests/arrow_generator_property_tests.gd.uid
+?? tests/capture/
+?? tests/fake_ads_adapter.gd
+?? tests/fake_ads_adapter.gd.uid
+?? tests/legacy/
+?? tests/parse_check.gd
+?? tests/parse_check.gd.uid
+?? tests/parse_check.tscn
+?? tests/theme_check.gd
+?? tests/theme_check.gd.uid
+?? tests/theme_check.tscn
+?? tools/analyze_audio.py
+?? tools/build_android_plugin.sh
+?? tools/build_arrow_levels.gd
+?? tools/build_arrow_levels.gd.uid
+?? tools/device_play.py
+?? tools/legacy/
+?? tools/levels_src/
+?? tools/make_audio.py
+?? tools/preview_arrows.py
+?? tools/run_tests.py
+?? tools/select_chain.py
+?? tools/update_locales.py
+?? tools/validate_arrow_levels.py
+?? tools/voice/

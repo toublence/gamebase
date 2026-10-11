@@ -1,6 +1,6 @@
 extends Node
 signal transition_finished(route: String)
-const ROUTES := {"menu": "res://scenes/menu/main_menu.tscn",
+const ROUTES := {"menu": "res://scenes/menu/main_menu.tscn", "levels": "res://scenes/levels/level_select.tscn",
 	"game": "res://scenes/game/game_host.tscn", "result": "res://scenes/result/result.tscn"}
 var is_transitioning := false
 var current_route := "boot"
@@ -35,8 +35,10 @@ func _transition(scene: PackedScene, route: String) -> void:
 		"menu": AppManager.set_state(AppManager.State.MENU)
 		"game": AppManager.set_state(AppManager.State.PLAYING)
 		"result": AppManager.set_state(AppManager.State.RESULT)
+		"levels": AppManager.set_state(AppManager.State.LEVELS)
 	if AppManager.is_backgrounded:
 		AppManager.pause_game()
 	await UI.fade_transition(false)
 	is_transitioning = false
 	transition_finished.emit(route)
+	UI.debug_log_buttons("route")

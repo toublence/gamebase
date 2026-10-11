@@ -1,6 +1,12 @@
-[gd_resource type="Resource" script_class="BaseConfig" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="BaseConfig" load_steps=6 format=3]
 [ext_resource type="Script" path="res://scripts/core/base_config.gd" id="1"]
 [ext_resource type="AudioStream" path="res://assets/audio/ui_click.wav" id="2"]
+[ext_resource type="PackedScene" path="res://game/outtap_game.tscn" id="3"]
+[ext_resource type="AudioStream" path="res://assets/audio/music_calm.ogg" id="4"]
+[ext_resource type="AudioStream" path="res://assets/audio/music_tense.ogg" id="5"]
 [resource]
 script = ExtResource("1")
+game_scene = ExtResource("3")
+menu_music = ExtResource("4")
+game_music = ExtResource("5")
 ui_click = ExtResource("2")

@@ -1,25 +1,35 @@
-; Namslab reusable mobile foundation. Godot 4.7.2 stable.
+; Outtap (아웃탭) — arrow escape puzzle. Built on the Namslab game base. Godot 4.7.2 stable.
 config_version=5
 
 [application]
-config/name="Namslab Base"
+config/name="Outtap"
 run/main_scene="res://scenes/boot/boot.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://assets/icons/app.svg"
+boot_splash/bg_color=Color(0.961, 0.937, 0.894, 1)
+boot_splash/show_image=false
 config/use_custom_user_dir=true
-config/custom_user_dir_name="Namslab/gamebase"
+config/custom_user_dir_name="Namslab/outtap"
 
 [autoload]
+
 SaveManager="*res://scripts/services/save_manager.gd"
 SettingsManager="*res://scripts/services/settings_manager.gd"
+Diagnostics="*res://game/services/diagnostics.gd"
 AnalyticsService="*res://scripts/analytics/analytics_service.gd"
 AudioManager="*res://scripts/audio/audio_manager.gd"
 HapticManager="*res://scripts/haptics/haptic_manager.gd"
 GameSession="*res://scripts/core/game_session.gd"
 AppManager="*res://scripts/core/app_manager.gd"
 SceneManager="*res://scripts/core/scene_manager.gd"
+Levels="*res://game/services/level_repository.gd"
+Progress="*res://game/services/progress_store.gd"
 AdsManager="*res://scripts/ads/ads_manager.gd"
 UI="*res://scripts/ui/ui_service.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/outtap_ads/plugin.cfg")
 
 [display]
 window/size/viewport_width=480
@@ -28,13 +38,13 @@ window/size/window_width_override=480
 window/size/window_height_override=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
-window/handheld/orientation=6
+window/handheld/orientation=1
 window/energy_saving/keep_screen_on=false
 
 [rendering]
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-environment/defaults/default_clear_color=Color(0.953, 0.957, 0.941, 1)
+environment/defaults/default_clear_color=Color(0.961, 0.937, 0.894, 1)
 textures/default_filters/use_nearest_mipmap_filter=false
 textures/vram_compression/import_etc2_astc=true
 

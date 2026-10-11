@@ -1,0 +1,19 @@
+[
+ {"id": "a004", "tag": "easy",   "coach": "COACH_HEARTS", "w": 5, "h": 7, "fill": 0.9, "len_min": 3, "len_max": 6, "turn": 0.35, "max_bends": 2, "free": [0.3, 0.5], "layers": [3, 4], "n": [6, 8]},
+ {"id": "a005", "tag": "easy",   "coach": "COACH_CHAIN",  "w": 6, "h": 7, "fill": 0.9, "len_min": 3, "len_max": 6, "turn": 0.35, "max_bends": 2, "free": [0.25, 0.4], "layers": [4, 6], "n": [8, 10]},
+ {"id": "a006", "tag": "medium", "w": 6, "h": 8, "fill": 0.92, "len_min": 3, "len_max": 7, "turn": 0.4, "max_bends": 3, "free": [0.2, 0.34], "layers": [4, 6], "n": [8, 11]},
+ {"id": "a007", "tag": "relief", "w": 6, "h": 8, "fill": 0.92, "len_min": 4, "len_max": 8, "turn": 0.3, "max_bends": 2, "free": [0.38, 0.65], "layers": [2, 4], "n": [7, 10], "cascade": 2},
+ {"id": "a008", "tag": "medium", "w": 7, "h": 9, "fill": 0.92, "len_min": 3, "len_max": 8, "turn": 0.4, "max_bends": 3, "free": [0.2, 0.32], "layers": [5, 7], "n": [10, 13]},
+ {"id": "a009", "tag": "medium", "w": 7, "h": 9, "fill": 0.94, "len_min": 4, "len_max": 9, "turn": 0.35, "max_bends": 3, "free": [0.2, 0.34], "layers": [5, 7], "n": [8, 11]},
+ {"id": "a010", "tag": "hard",   "w": 7, "h": 10, "fill": 0.94, "len_min": 3, "len_max": 8, "turn": 0.45, "max_bends": 3, "free": [0.14, 0.24], "layers": [6, 9], "n": [11, 15]},
+ {"id": "a011", "tag": "relief", "w": 7, "h": 10, "fill": 0.94, "len_min": 4, "len_max": 9, "turn": 0.3, "max_bends": 2, "free": [0.38, 0.6], "layers": [3, 5], "n": [9, 13], "cascade": 2},
+ {"id": "a012", "tag": "medium", "w": 8, "h": 10, "fill": 0.94, "len_min": 3, "len_max": 8, "turn": 0.4, "max_bends": 3, "free": [0.2, 0.32], "layers": [5, 8], "n": [12, 16]},
+ {"id": "a013", "tag": "hard",   "w": 8, "h": 10, "fill": 0.95, "len_min": 4, "len_max": 9, "turn": 0.45, "max_bends": 4, "free": [0.12, 0.24], "layers": [6, 9], "n": [10, 14]},
+ {"id": "a014", "tag": "medium", "w": 8, "h": 11, "fill": 0.94, "len_min": 3, "len_max": 8, "turn": 0.4, "max_bends": 3, "free": [0.2, 0.32], "layers": [6, 9], "n": [14, 17]},
+ {"id": "a015", "tag": "relief", "w": 8, "h": 11, "fill": 0.95, "len_min": 5, "len_max": 10, "turn": 0.3, "max_bends": 3, "free": [0.36, 0.6], "layers": [3, 5], "n": [9, 13], "cascade": 2},
+ {"id": "a016", "tag": "hard",   "w": 8, "h": 12, "fill": 0.95, "len_min": 3, "len_max": 9, "turn": 0.45, "max_bends": 4, "free": [0.12, 0.22], "layers": [7, 10], "n": [14, 18]},
+ {"id": "a017", "tag": "medium", "w": 9, "h": 12, "fill": 0.95, "len_min": 3, "len_max": 8, "turn": 0.4, "max_bends": 3, "free": [0.18, 0.28], "layers": [6, 9], "n": [17, 22]},
+ {"id": "a018", "tag": "hard",   "w": 9, "h": 12, "fill": 0.96, "len_min": 3, "len_max": 9, "turn": 0.45, "max_bends": 4, "free": [0.11, 0.2], "layers": [8, 12], "n": [16, 21]},
+ {"id": "a019", "tag": "relief", "w": 9, "h": 13, "fill": 0.96, "len_min": 4, "len_max": 10, "turn": 0.35, "max_bends": 3, "free": [0.33, 0.55], "layers": [4, 6], "n": [13, 18], "cascade": 2},
+ {"id": "a020", "tag": "hard",   "w": 9, "h": 13, "fill": 0.97, "len_min": 3, "len_max": 9, "turn": 0.45, "max_bends": 4, "free": [0.1, 0.18], "layers": [9, 13], "n": [19, 25]}
+]

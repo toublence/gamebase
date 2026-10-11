@@ -3,9 +3,11 @@ signal state_changed(state: int)
 signal backgrounded
 signal foregrounded
 
-enum State { BOOT, MENU, PLAYING, PAUSED, RESULT }
+enum State { BOOT, MENU, PLAYING, PAUSED, RESULT, LEVELS }
 var state := State.BOOT
 var is_backgrounded := false
+## Optional handler from the active game screen; returns true when it consumed the back press.
+var game_back_handler: Callable
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -54,14 +56,19 @@ func handle_back() -> void:
 		return
 	if UI.handle_back():
 		return
+	if state == State.PLAYING and game_back_handler.is_valid() and game_back_handler.call():
+		return
 	match state:
 		State.PLAYING: pause_game()
 		State.PAUSED: resume_game()
-		State.RESULT: return_to_menu()
+		State.RESULT, State.LEVELS: return_to_menu()
 		State.MENU: UI.confirm("QUIT_TITLE", "QUIT_BODY", request_quit)
 
 func request_quit() -> void:
 	SaveManager.flush()
+	# Stop the music one mix early so its playback is released before the engine shuts down.
+	AudioManager.play_music(null)
+	await get_tree().create_timer(0.1, true).timeout
 	get_tree().quit()
 
 func _unhandled_key_input(event: InputEvent) -> void:
@@ -72,7 +79,10 @@ func _unhandled_key_input(event: InputEvent) -> void:
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_APPLICATION_PAUSED:
 		is_backgrounded = true
-		pause_game()
+		# A full-screen ad or the consent form also pauses the activity; the game is already
+		# input-locked behind it, so do not stack a pause dialog on top.
+		if not AdsManager.is_presenting():
+			pause_game()
 		SaveManager.flush()
 		AudioManager.set_suspended(true)
 		backgrounded.emit()

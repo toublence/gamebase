@@ -1,0 +1,17 @@
+{
+  "project": "/Users/nam/projects/game/outtap",
+  "isolated_project": "/var/folders/jr/kx6q4lks06g1nqtwq2dlfp7w0000gn/T/outtap-realqa-hepfkgvc/project",
+  "isolated_user_dir": "/Users/nam/Library/Application Support/Namslab/outtap-realqa-hepfkgvc",
+  "original_user_dir": "/Users/nam/Library/Application Support/Namslab/outtap",
+  "original_save_hashes": {
+    "/Users/nam/Library/Application Support/Namslab/outtap/save.json.bak": "b1a235fb4b96748d4fdd8b40691d4f1a09c3825b676ace6f9ca5c2bbc58c92c4",
+    "/Users/nam/Library/Application Support/Namslab/outtap/save.json": "d51f53b56a0fece4545e0e8f43102c0ac25daa076542818ca778f52b85ff3231"
+  },
+  "git_head": "77186f756d79679067dbd7d51e29b99e40cd5b9d",
+  "launched_pid": 7144,
+  "audit_end_kst": "2026-10-10T17:15:53.006699+09:00",
+  "level_data_access": "Metadata count/tags only; no solution arrays or paths used for play",
+  "qa_process_closed": true,
+  "actual_runtime_pid": 7180,
+  "adb_5038_closed": true
+}

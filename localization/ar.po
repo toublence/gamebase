@@ -7,13 +7,13 @@ msgid "BRAND"
 msgstr "NAMSLAB"
 
 msgid "APP_TITLE"
-msgstr "بداية جديدة"
+msgstr "Outtap"
 
 msgid "MENU_SUBTITLE"
 msgstr "أساس بسيط للعبتك القادمة."
 
 msgid "START"
-msgstr "بدء جلسة"
+msgstr "ابدأ"
 
 msgid "SETTINGS"
 msgstr "الإعدادات"
@@ -37,16 +37,16 @@ msgid "PAUSE"
 msgstr "إيقاف مؤقت"
 
 msgid "PAUSED"
-msgstr "خذ استراحة"
+msgstr "متوقف مؤقتًا"
 
 msgid "PAUSE_DESCRIPTION"
-msgstr "تابع عندما تكون مستعدًا."
+msgstr "لوحتك بانتظارك هنا."
 
 msgid "RESUME"
-msgstr "متابعة"
+msgstr "استئناف"
 
 msgid "RESTART"
-msgstr "إعادة البدء"
+msgstr "إعادة"
 
 msgid "RESTART_BODY"
 msgstr "هل تبدأ جلسة جديدة؟ سيُفقد التقدم الحالي."
@@ -145,4 +145,736 @@ msgid "MODULE_ERROR"
 msgstr "يجب أن يرث المشهد المتصل GameModule."
 
 msgid "PRIVACY_OPTIONS"
-msgstr "خيارات الخصوصية"
+msgstr "خيارات خصوصية الإعلانات"
+
+msgid "APP_TAGLINE"
+msgstr "فكّ تشابك الأسهم واحدًا تلو الآخر"
+
+msgid "CONTINUE"
+msgstr "متابعة"
+
+msgid "IN_PROGRESS"
+msgstr "قيد التقدم"
+
+msgid "CHAPTER_N"
+msgstr "الفصل %d"
+
+msgid "CHAPTER_PROGRESS"
+msgstr "الفصل %d · %d/%d مكتمل"
+
+msgid "CHAPTER_CLEARED"
+msgstr "%d/%d مكتمل"
+
+msgid "CHAPTER_DONE"
+msgstr "اكتمل الفصل %d"
+
+msgid "STAGE_N"
+msgstr "المرحلة %d"
+
+msgid "STAGES"
+msgstr "المراحل"
+
+msgid "STAGES_PROGRESS"
+msgstr "%d/%d مكتمل"
+
+msgid "STAGE_LOCKED"
+msgstr "أكمل المراحل السابقة أولًا"
+
+msgid "STAGE_CLEAR"
+msgstr "اكتملت المرحلة %d!"
+
+msgid "NEXT_STAGE"
+msgstr "المرحلة التالية"
+
+msgid "NEXT_SWITCH"
+msgstr "اللغز التالي"
+
+msgid "HOME"
+msgstr "الرئيسية"
+
+msgid "BACK"
+msgstr "رجوع"
+
+msgid "HINT"
+msgstr "تلميح"
+
+msgid "UNDO"
+msgstr "تراجع"
+
+msgid "UNDO_FREE"
+msgstr "تراجع (مجانًا)"
+
+msgid "RESTART_LEVEL"
+msgstr "إعادة المرحلة"
+
+msgid "RESTART_FREE"
+msgstr "حاول مجددًا (مجانًا)"
+
+msgid "PRACTICE"
+msgstr "تدريب"
+
+msgid "HEARTS_LEFT"
+msgstr "تبقى %d قلوب"
+
+msgid "COMBO_N"
+msgstr "سلسلة %d"
+
+msgid "OUT_OF_HEARTS"
+msgstr "نفدت القلوب"
+
+msgid "FAIL_REASON"
+msgstr "نقرت كتلة محجوبة ثلاث مرات. لا تخرج إلا الكتل التي طريقها إلى الحافة فارغ."
+
+msgid "CONTINUE_AD"
+msgstr "شاهد إعلانًا: تابع بقلب واحد"
+
+msgid "CONTINUE_NOTICE"
+msgstr "قلب إضافي. أنت قادر!"
+
+msgid "CLEAR_STATS"
+msgstr "%d كتل · %d أخطاء"
+
+msgid "BADGE_PERFECT"
+msgstr "بلا أخطاء"
+
+msgid "ALL_DONE"
+msgstr "أكملت كل المراحل. جرّب تحدي اليوم!"
+
+msgid "ALL_DONE_SHORT"
+msgstr "اكتملت كل المراحل"
+
+msgid "DAILY_TITLE"
+msgstr "تحدي اليوم"
+
+msgid "DAILY_NEW"
+msgstr "لغز جديد اليوم"
+
+msgid "DAILY_DONE"
+msgstr "أنجزته اليوم"
+
+msgid "DAILY_CLEAR"
+msgstr "اكتمل تحدي اليوم!"
+
+msgid "DAILY_DONE_BODY"
+msgstr "لوحة جديدة غدًا."
+
+msgid "DATE_FORMAT"
+msgstr "%d/%d"
+
+msgid "SWITCH_CHALLENGE"
+msgstr "تحدي المفاتيح"
+
+msgid "SWITCH_N"
+msgstr "مفتاح %d"
+
+msgid "SWITCH_SUBTITLE"
+msgstr "الترتيب مهم"
+
+msgid "SWITCH_PROGRESS"
+msgstr "%d/%d محلول"
+
+msgid "SWITCH_LOCKED"
+msgstr "يُفتح بعد المرحلة %d"
+
+msgid "SWITCH_LOCKED_TOAST"
+msgstr "أكمل المرحلة 30 لفتح تحدي المفاتيح"
+
+msgid "SWITCH_UNLOCKED"
+msgstr "فُتح تحدي المفاتيح"
+
+msgid "SWITCH_CLEAR"
+msgstr "حُلّ المفتاح %d!"
+
+msgid "SWITCH_ALL_DONE"
+msgstr "حُلّت كل ألغاز المفاتيح!"
+
+msgid "SWITCH_RULE_SHORT"
+msgstr "عند خروج المفتاح تدور كتل حرفه باتجاه عقارب الساعة"
+
+msgid "TAB_CAMPAIGN"
+msgstr "المراحل"
+
+msgid "TAB_SWITCH"
+msgstr "المفاتيح"
+
+msgid "COACH_TAP"
+msgstr "انقر سهمًا فينزلق خارجًا باتجاه رأسه."
+
+msgid "COACH_OPEN"
+msgstr "السهم الطويل في الوسط يسد الطريق. أخرجه أولًا."
+
+msgid "COACH_LOOK"
+msgstr "انظر أمام كل رأس: يجب أن يكون الطريق خاليًا حتى الحافة."
+
+msgid "COACH_HEARTS"
+msgstr "من الآن، النقر على سهم محجوب يكلف قلبًا."
+
+msgid "COACH_CHAIN"
+msgstr "كل سهم تُخرجه يفتح طريقًا جديدًا. واصل!"
+
+msgid "COACH_BLOCKED"
+msgstr "محجوب! ابحث عن سهم طريقه أمامه خالٍ."
+
+msgid "COACH_SWITCH"
+msgstr "عندما يخرج المفتاح (الحلقة) تدور الكتل التي تحمل حرفه باتجاه عقارب الساعة."
+
+msgid "COACH_PREVIEW"
+msgstr "اضغط مطولًا على المفتاح لمعاينة الدوران. اسحب للخارج للإلغاء."
+
+msgid "COACH_UNDO"
+msgstr "علقت؟ التراجع مجاني عندما لا تتحرك أي كتلة."
+
+msgid "STUCK_NOTICE"
+msgstr "لا يمكن لأي كتلة التحرك. التراجع مجاني."
+
+msgid "UNDO_NEEDED"
+msgstr "لا يمكن إكمالها بهذا الترتيب. تراجع خطوة."
+
+msgid "AD_LOADING"
+msgstr "جارٍ تجهيز إعلان…"
+
+msgid "AD_UNAVAILABLE"
+msgstr "لا يتوفر إعلان الآن"
+
+msgid "AD_RETRY_LATER"
+msgstr "الإعلان غير جاهز. ستتم إعادة المحاولة قريبًا."
+
+msgid "AD_BUSY"
+msgstr "انتظر لحظة"
+
+msgid "WATCH_AD"
+msgstr "شاهد الإعلان"
+
+msgid "REWARD_HINT_TITLE"
+msgstr "تلميح إضافي"
+
+msgid "REWARD_HINT_BODY"
+msgstr "شاهد إعلانًا قصيرًا لتحصل على تلميح واحد لهذه المرحلة."
+
+msgid "REWARD_UNDO_TITLE"
+msgstr "تراجع إضافي"
+
+msgid "REWARD_UNDO_BODY"
+msgstr "شاهد إعلانًا قصيرًا لتحصل على تراجع إضافي."
+
+msgid "REWARD_CONTINUE_TITLE"
+msgstr "تابع بقلب واحد"
+
+msgid "REWARD_CONTINUE_BODY"
+msgstr "شاهد إعلانًا قصيرًا لتكمل هذه اللوحة بقلب واحد. الإعادة مجانية دائمًا."
+
+msgid "REWARD_NOT_EARNED"
+msgstr "أُغلق الإعلان مبكرًا، لذا لا مكافأة."
+
+msgid "REWARD_LATE"
+msgstr "وصلت مكافأتك وأُضيفت."
+
+msgid "THEMES"
+msgstr "السمات"
+
+msgid "THEME_PAPER"
+msgstr "ورق"
+
+msgid "THEME_MINT"
+msgstr "نعناع"
+
+msgid "THEME_SKY"
+msgstr "سماء"
+
+msgid "THEME_SAND"
+msgstr "رمل"
+
+msgid "THEME_BLOSSOM"
+msgstr "زهر"
+
+msgid "THEME_LOCKED"
+msgstr "أكمل المرحلة %d"
+
+msgid "THEME_IN_USE"
+msgstr "قيد الاستخدام"
+
+msgid "THEME_UNLOCKED"
+msgstr "سمة جديدة: %s"
+
+msgid "PRIVACY_SECTION"
+msgstr "الخصوصية والإعلانات"
+
+msgid "PRIVACY_NOTE"
+msgstr "لا يحتوي Outtap على حساب أو خادم. تُعرض الإعلانات عبر Google AdMob وفق اختيارات موافقتك."
+
+msgid "RESET_PROGRESS"
+msgstr "إعادة ضبط التقدم"
+
+msgid "RESET_TITLE"
+msgstr "إعادة ضبط التقدم؟"
+
+msgid "RESET_BODY"
+msgstr "ستُحذف المراحل المكتملة والشارات والسمات وسجل التحدي. تبقى الإعدادات."
+
+msgid "RESET_NEXT"
+msgstr "متابعة"
+
+msgid "RESET_CONFIRM_TITLE"
+msgstr "لا يمكن التراجع"
+
+msgid "RESET_CONFIRM_BODY"
+msgstr "مسح كل التقدم الآن؟"
+
+msgid "RESET_CONFIRM_ACTION"
+msgstr "امسح التقدم"
+
+msgid "RESET_DONE"
+msgstr "تمت إعادة الضبط"
+
+msgid "AD_DIAGNOSTICS"
+msgstr "تشخيص الإعلانات"
+
+msgid "VERSION_LABEL"
+msgstr "الإصدار %s · المحتوى %s"
+
+msgid "ATTEMPT_RESET"
+msgstr "تغيّرت اللوحة المحفوظة بتحديث، لذا تبدأ من جديد."
+
+msgid "LEVEL_DATA_REPAIRED"
+msgstr "استُبدلت مرحلة تالفة بأخرى سليمة."
+
+msgid "FAIL_REASON_ARROWS"
+msgstr "نقرت أسهمًا محجوبة ثلاث مرات. لا يخرج السهم إلا إذا كان الطريق أمام رأسه خاليًا حتى الحافة."
+
+msgid "CLEAR_STATS_ARROWS"
+msgstr "%d أسهم · %d أخطاء"
+
+msgid "CHAPTER1_DONE_BODY"
+msgstr "أنهيت كل المراحل المتاحة. مراحل جديدة في الطريق."
+
+msgid "FIT_BOARD"
+msgstr "عرض اللوحة كاملة"
+
+msgid "MIGRATION_NOTICE"
+msgstr "أصبح لـ Outtap ألغاز أسهم جديدة. تبدأ رحلتك من المرحلة 1."
+
+msgid "OK"
+msgstr "حسنًا"
+
+msgid "CLOSE"
+msgstr "إغلاق"
+
+msgid "HARD_INTRO_BODY"
+msgstr "لوحة كبيرة. خذ وقتك:\nكبّر وابحث عن المخرج."
+
+msgid "HARD_CLEAR"
+msgstr "اكتملت مرحلة %s رقم %d!"
+
+msgid "COACH_ZOOM"
+msgstr "باعد بين إصبعين للتكبير. النقر المزدوج على مساحة فارغة يعمل أيضًا."
+
+msgid "TOUCH_AMBIGUOUS"
+msgstr "كان ذلك بين سهمين. انقر على سهم مباشرة أو كبّر."
+
+msgid "WOW_TEXT"
+msgstr "Wow!"
+
+msgid "STAT_TIME"
+msgstr "الوقت"
+
+msgid "STAT_MISTAKES"
+msgstr "الأخطاء"
+
+msgid "GOLD_COUNT"
+msgstr "الأسهم الذهبية %d من %d"
+
+msgid "LEAGUE_GAINED"
+msgstr "+%d نقاط دوري"
+
+msgid "LEAGUE_PART_GOLD"
+msgstr "أسهم ذهبية +%d"
+
+msgid "LEAGUE_PART_HARD"
+msgstr "لوحة كبيرة +%d"
+
+msgid "LEAGUE_PART_PERFECT"
+msgstr "بلا أخطاء +%d"
+
+msgid "LEAGUE_PART_FIRST_CLEAR"
+msgstr "أول إكمال +%d"
+
+msgid "LEAGUE_ALREADY_CLAIMED"
+msgstr "منحت هذه المرحلة نقاطها هذا الأسبوع بالفعل."
+
+msgid "LEAGUE_PROMOTED"
+msgstr "ترقية إلى %s!"
+
+msgid "LEAGUE_BRONZE"
+msgstr "الدوري البرونزي"
+
+msgid "LEAGUE_SILVER"
+msgstr "الدوري الفضي"
+
+msgid "LEAGUE_GOLD"
+msgstr "الدوري الذهبي"
+
+msgid "LEAGUE_PLATINUM"
+msgstr "الدوري البلاتيني"
+
+msgid "LEAGUE_DIAMOND"
+msgstr "الدوري الماسي"
+
+msgid "LEAGUE_POINTS_WEEK"
+msgstr "%d نقطة هذا الأسبوع"
+
+msgid "LEAGUE_TOP_KEEP"
+msgstr "أعلى دوري! %d نقطة أسبوعيًا تحافظ عليه."
+
+msgid "LEAGUE_TO_NEXT"
+msgstr "%d نقطة أخرى للوصول إلى %s"
+
+msgid "LEAGUE_TITLE"
+msgstr "الدوري الأسبوعي"
+
+msgid "LEAGUE_HONEST"
+msgstr "دوري شخصي: لا لاعبين آخرين، أنت فقط ضد نفسك في الأسبوع الماضي. تأتي النقاط فقط من المراحل التي أكملتها على هذا الجهاز."
+
+msgid "LEAGUE_ENDS_IN"
+msgstr "ينتهي الأسبوع خلال %d ي %d س"
+
+msgid "LEAGUE_RULE_PROMOTE"
+msgstr "ترقية عند %d"
+
+msgid "LEAGUE_RULE_KEEP"
+msgstr "بقاء عند %d"
+
+msgid "LEAGUE_YOU"
+msgstr "أنت"
+
+msgid "LEAGUE_LAST_WEEK"
+msgstr "الأسبوع الماضي"
+
+msgid "LEAGUE_BEST"
+msgstr "الأفضل"
+
+msgid "LEAGUE_LAST_WEEK_POINTS"
+msgstr "الأسبوع الماضي: %d"
+
+msgid "LEAGUE_BEST_POINTS"
+msgstr "أفضل أسبوع: %d"
+
+msgid "LEAGUE_HOW_TITLE"
+msgstr "كيف تكسب النقاط"
+
+msgid "LEAGUE_HOW_GOLD"
+msgstr "• الأسهم الذهبية في لوحة مكتملة: +1 لكل سهم"
+
+msgid "LEAGUE_HOW_HARD"
+msgstr "• إكمال لوحة كبيرة: +2"
+
+msgid "LEAGUE_HOW_PERFECT"
+msgstr "• إكمال بلا أخطاء: +1"
+
+msgid "LEAGUE_HOW_FIRST"
+msgstr "• أول إكمال لمرحلة: +1 (مرة واحدة)"
+
+msgid "LEAGUE_HOW_WEEKLY"
+msgstr "كل مرحلة تمنح نقاطها مرة أسبوعيًا؛ أعد لعبها الأسبوع القادم."
+
+msgid "LEAGUE_REWARDS_TITLE"
+msgstr "مكافآت المستويات"
+
+msgid "LEAGUE_REWARD_SKIN"
+msgstr "%s: أسهم %s"
+
+msgid "LEAGUE_WEEK_RESULT"
+msgstr "دوري الأسبوع الماضي"
+
+msgid "LEAGUE_RESULT_KEPT"
+msgstr "تبقى في %s"
+
+msgid "LEAGUE_RESULT_DROPPED"
+msgstr "عدت إلى %s. اصعد مجددًا هذا الأسبوع!"
+
+msgid "LEAGUE_HOME"
+msgstr "%s · %d"
+
+msgid "STYLE"
+msgstr "النمط"
+
+msgid "STYLE_SCENES"
+msgstr "المشهد"
+
+msgid "STYLE_ARROWS"
+msgstr "ألوان الأسهم"
+
+msgid "SCENE_AUTO"
+msgstr "تلقائي"
+
+msgid "SCENE_AUTO_NOTE"
+msgstr "كل مرحلة تختار مشهدها"
+
+msgid "SCENE_MORNING"
+msgstr "صباح هادئ"
+
+msgid "SCENE_SUNSET"
+msgstr "تدفق الغروب"
+
+msgid "SCENE_HARBOR"
+msgstr "ميناء الليل"
+
+msgid "SCENE_LOCKED"
+msgstr "أكمل المرحلة %d"
+
+msgid "SCENE_UNLOCKED"
+msgstr "مشهد جديد: %s"
+
+msgid "SKIN_CLASSIC"
+msgstr "كلاسيكي"
+
+msgid "SKIN_CANDY"
+msgstr "حلوى"
+
+msgid "SKIN_OCEAN"
+msgstr "محيط"
+
+msgid "SKIN_NEON"
+msgstr "نيون"
+
+msgid "SKIN_AURORA"
+msgstr "شفق"
+
+msgid "SKIN_LOCKED"
+msgstr "صل إلى %s"
+
+msgid "SKIN_UNLOCKED"
+msgstr "ألوان أسهم جديدة: %s"
+
+msgid "VOICE"
+msgstr "تشجيع صوتي (صوت ذكاء اصطناعي)"
+
+msgid "VOICE_NOTE"
+msgstr "بالكورية والإنجليزية. اللغات الأخرى تستخدم مؤثرات صوتية."
+
+msgid "CREDITS"
+msgstr "الاعتمادات"
+
+msgid "CREDITS_VOICE"
+msgstr "التشجيع الصوتي كلام مُولَّد بالذكاء الاصطناعي باستخدام Supertone Supertonic 2 (رخصة Open RAIL-M). ليس صوت شخص حقيقي."
+
+msgid "CREDITS_AUDIO"
+msgstr "تم توليد الموسيقى والمؤثرات خصيصًا لـ Outtap."
+
+msgid "CREDITS_FONT"
+msgstr "الخط: SUIT (رخصة SIL المفتوحة للخطوط)"
+
+msgid "REDESIGN_NOTICE"
+msgstr "أُعيد تصميم المراحل بلوحات جديدة أكبر. يبدأ التقدم من المرحلة 1 مجددًا."
+
+msgid "NEXT"
+msgstr "التالي"
+
+msgid "STORY_START"
+msgstr "هيا بنا"
+
+msgid "STORY_MOA"
+msgstr "الجدة موا"
+
+msgid "STORY_PLACE"
+msgstr "حارسة منارة خليج لومن"
+
+msgid "STORY_CHAPTER1"
+msgstr "الفصل 1 · دليل خليج لومن"
+
+msgid "STORY_INTRO_1"
+msgstr "الليلة الماضية اجتاحت عاصفة خليج لومن."
+
+msgid "STORY_INTRO_2"
+msgstr "تشابكت أسهم الريح، وعلقت كنوز البلدة بداخلها."
+
+msgid "STORY_INTRO_3"
+msgstr "حرّر الأسهم واحدًا تلو الآخر يا دليلي الصغير. كل عقدة تفكها تعيد شيئًا إلى البلدة."
+
+msgid "STORY_HARD_1"
+msgstr "أترى شجرة التفاح الكبيرة؟ لقد شابكتها العاصفة أكثر من أي شيء."
+
+msgid "STORY_HARD_2"
+msgstr "خذ وقتك وانظر عن قرب. ابحث أولًا عن الأسهم المتجهة إلى السماء المفتوحة."
+
+msgid "STORY_EXPERT_1"
+msgstr "حتى قطة الميناء علقت. التشابك يزداد عمقًا."
+
+msgid "STORY_EXPERT_2"
+msgstr "لكنك استعدت نصف البلدة بالفعل. واصل!"
+
+msgid "STORY_MASTER_1"
+msgstr "قلب العاصفة قريب. حتى أوراق الغابة صارت متشابكة."
+
+msgid "STORY_MASTER_2"
+msgstr "لم يبقَ بيننا وبين ضوء المنارة سوى العقد الأخيرة. تشجّع!"
+
+msgid "STORY_LEGEND_1"
+msgstr "هذه الأخيرة. قلب البلدة مربوط في أعمق عقدة."
+
+msgid "STORY_LEGEND_2"
+msgstr "فكّها وستضيء المنارة من جديد. أعلم أنك تستطيع."
+
+msgid "STORY_END_1"
+msgstr "لقد فعلتها! المنارة تضيء من جديد."
+
+msgid "STORY_END_2"
+msgstr "استيقظ خليج لومن من جديد. شكرًا لك يا دليلي."
+
+msgid "STORY_END_3"
+msgstr "لكن اسمع... ريح متشابكة تهب من غابة الضباب. القصة التالية تبدأ قريبًا."
+
+msgid "OBJ_SIGN"
+msgstr "لافتة الرصيف"
+
+msgid "OBJ_LANE"
+msgstr "زقاق البلدة"
+
+msgid "OBJ_FISH"
+msgstr "سرب الأسماك"
+
+msgid "OBJ_STAR"
+msgstr "نجم البحر"
+
+msgid "OBJ_APPLE"
+msgstr "شجرة التفاح"
+
+msgid "OBJ_MUSHROOM"
+msgstr "فطر الغابة"
+
+msgid "OBJ_WHALE"
+msgstr "الحوت"
+
+msgid "OBJ_LIGHTHOUSE"
+msgstr "برج المنارة"
+
+msgid "OBJ_ANCHOR"
+msgstr "المرساة"
+
+msgid "OBJ_CAT"
+msgstr "قطة الميناء"
+
+msgid "OBJ_SAILBOAT"
+msgstr "القارب الشراعي"
+
+msgid "OBJ_HILL"
+msgstr "التلة"
+
+msgid "OBJ_TURTLE"
+msgstr "السلحفاة البحرية"
+
+msgid "OBJ_CLOUD"
+msgstr "غيمة الطقس الصحو"
+
+msgid "OBJ_LEAF"
+msgstr "ورقة الغابة"
+
+msgid "OBJ_HOUSE"
+msgstr "بيت الجدة"
+
+msgid "OBJ_WAVE"
+msgstr "أمواج هادئة"
+
+msgid "OBJ_TREE"
+msgstr "الشجرة العتيقة"
+
+msgid "OBJ_BEACH"
+msgstr "شاطئ الحصى"
+
+msgid "OBJ_HEART"
+msgstr "قلب البلدة"
+
+msgid "RESTORED"
+msgstr "عادت %s!"
+
+msgid "TOWN_TITLE"
+msgstr "خليج لومن"
+
+msgid "TOWN_PROGRESS"
+msgstr "الكنوز المستعادة: %d/%d"
+
+msgid "TOWN_HOME"
+msgstr "خليج لومن · %d/%d مستعاد"
+
+msgid "TOWN_OPEN"
+msgstr "اعرض البلدة"
+
+msgid "RATING_3"
+msgstr "Perfect!"
+
+msgid "RATING_2"
+msgstr "Great!"
+
+msgid "RATING_1"
+msgstr "Cleared!"
+
+msgid "STAT_SCORE"
+msgstr "النقاط"
+
+msgid "STAT_HINTS"
+msgstr "التلميحات"
+
+msgid "STREAK_TITLE"
+msgstr "أيام متتالية"
+
+msgid "STREAK_BODY"
+msgstr "أكمل مرحلة كل يوم لتبقى الفانوس مضاءً."
+
+msgid "WEEKDAY_0"
+msgstr "ن"
+
+msgid "WEEKDAY_1"
+msgstr "ث"
+
+msgid "WEEKDAY_2"
+msgstr "ر"
+
+msgid "WEEKDAY_3"
+msgstr "خ"
+
+msgid "WEEKDAY_4"
+msgstr "ج"
+
+msgid "WEEKDAY_5"
+msgstr "س"
+
+msgid "WEEKDAY_6"
+msgstr "ح"
+
+msgid "STUCK_HINT"
+msgstr "عالق؟ انقر المصباح أعلى اليمين لتلميح."
+
+msgid "ARROW_COLORS"
+msgstr "تلوين كل سهم"
+
+msgid "ZOOM_IN"
+msgstr "تكبير"
+
+msgid "RETRY"
+msgstr "إعادة المحاولة"
+
+msgid "RETRY_CAPTION"
+msgstr "نفدت القلوب · حاول مجددًا"
+
+msgid "CHECKPOINT_RESTORE"
+msgstr "من نقطة الحفظ (مجانًا)"
+
+msgid "CHECKPOINT_SAVED"
+msgstr "نقطة حفظ! خرج نصف الأسهم. إن نفدت القلوب ستعود من هنا."
+
+msgid "CHECKPOINT_BACK"
+msgstr "عدت إلى نقطة الحفظ بقلوب كاملة."
+
+msgid "BLOCK_WARNING"
+msgstr "مسدود! السهم البنفسجي يعترض سهمك الأحمر. هذه المرة الأولى بلا خسارة قلب."
+
+msgid "COACH_CAMERA"
+msgstr "اسحب للتجول وقرّب بإصبعين. زر الزاوية يعرض اللوحة كاملة."
+
+msgid "BIG_CLEAR"
+msgstr "اكتملت اللوحة الكبيرة!"
+
+msgid "STORY_READ"
+msgstr "اقرأ القصة"
+
+msgid "CHECKPOINT_LEFT"
+msgstr "يتبقى هناك %d سهمًا"
